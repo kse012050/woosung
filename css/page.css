@@ -12,6 +12,16 @@
 .mainTopArea div h2{font-size: 26px; font-weight: 700; color: #1a2d66; text-align: right; width: 600px; padding: 0 75px; box-sizing: border-box; position: relative; z-index: 1;}
 .mainTopArea div h2 strong{display: block; font-size: 90px; font-weight: bold; line-height: 100px;  text-transform: uppercase; margin-bottom: 25px;}
 
+/* 메인 슬라이더 */
+.mainSliderArea{width: 1200px;}
+.mainSliderArea .swiper-container{text-align: center; width: 100%;}
+.mainSliderArea .mainSliderContens{max-width: 855px; margin: 0 auto;}
+.mainSliderArea .mainSliderContens h2{align-items: center;}
+.mainSliderArea .mainSliderContens h2 a{margin-left: 20px;}
+.mainSliderArea .mainSliderContens p{font-size: 26px; font-weight: 700; margin-bottom: 20px;}
+.mainSliderArea .mainSliderContens span{display: block; font-size: 26px; font-weight: 700; color: #807f7f;}
+.mainSliderArea .mainSliderContens span mark{font-weight: 700; color: black;}
+
 /* 메인 구매 */
 .mainBuyArea{height: 550px; background: url('../images/mainBuyBG.png') no-repeat center center / cover; display: flex; align-items: flex-end; justify-content: flex-end;}
 .mainBuyArea div{width: 50%; height: 200px; background-color: white; padding-left: 60px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;}
