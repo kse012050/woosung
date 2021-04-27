@@ -2,8 +2,10 @@
     메인 color 
     #1a2d66
 */
+mark{background-color: transparent;}
+
 /* width 100& - 130px */
-header , .mainArea{width: calc(100% - 130px);}
+header , .mainTopArea{width: calc(100% - 130px);}
 
 /* font Poppins */
 .mainArea div h2 strong,
