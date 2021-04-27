@@ -2,12 +2,20 @@
     메인 color 
     #1a2d66
 */
+/* width 100& - 130px */
+header , .mainArea{width: calc(100% - 130px);}
 
-header{position: fixed; left: 0; top: 0; width: calc(100% - 130px); height: 130px; display: flex; justify-content: space-between; align-items: center; padding: 0 80px; box-sizing: border-box;}
+/* font Poppins */
+.mainArea div h2 strong{font-family: 'Poppins', sans-serif; letter-spacing: -2px;}
+
+/* 플러스 버튼 */
+.plusBtn{display: inline-block; width: 170px; height: 50px; color: white; font-weight: 700; padding: 0 25px; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
+.plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
+
+header{position: fixed; left: 0; top: 0;  height: 130px; display: flex; justify-content: space-between; align-items: center; padding: 0 80px; box-sizing: border-box;}
 header h1{max-width: 190px;}
 header h1 img{width: 100%;}
 header nav ul{display: flex; width: 500px; justify-content: space-between; align-items: center;}
-header nav ul li{}
 header nav ul li a{font-size: 18px; font-weight: bold; color: #1a2d66;}
 header nav ul li.shoppingIcon a{display: flex; align-items: center; position: relative;}
 header nav ul li.shoppingIcon a::before{content: ''; width: 19px; height: 22px; background: url('../images/shoppingIcon.png') no-repeat center center; margin-right: 10px;}

@@ -1,0 +1,10 @@
+.mainArea{height: 100vh; background: url('../images/mainBG.png') no-repeat center center / cover; display: flex; align-items: flex-end;}
+.mainArea div{width: 50%; display: flex; justify-content: flex-end; position: relative;}
+.mainArea div::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 285px; background-color: white;}
+.mainArea div h2{font-size: 26px; font-weight: 700; color: #1a2d66; text-align: right; width: 600px; padding: 0 75px; box-sizing: border-box; position: relative; z-index: 1;}
+.mainArea div h2 strong{display: block; font-size: 90px; font-weight: bold; line-height: 100px;  text-transform: uppercase; margin-bottom: 25px;}
+
+.mainBuyArea{height: 550px; background: url('../images/mainBuyBG.png') no-repeat center center / cover; display: flex; align-items: flex-end; justify-content: flex-end;}
+.mainBuyArea div{width: 50%; height: 200px; background-color: white; padding-left: 60px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;}
+.mainBuyArea div h2{font-size: 50px; font-weight: 400; color: #1a2d66; margin-bottom: 30px; }
+.mainBuyArea div .plusBtn{width: 230px;}
