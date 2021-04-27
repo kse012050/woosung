@@ -1,10 +1,27 @@
-.mainArea{height: 100vh; background: url('../images/mainBG.png') no-repeat center center / cover; display: flex; align-items: flex-end;}
-.mainArea div{width: 50%; display: flex; justify-content: flex-end; position: relative;}
-.mainArea div::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 285px; background-color: white;}
-.mainArea div h2{font-size: 26px; font-weight: 700; color: #1a2d66; text-align: right; width: 600px; padding: 0 75px; box-sizing: border-box; position: relative; z-index: 1;}
-.mainArea div h2 strong{display: block; font-size: 90px; font-weight: bold; line-height: 100px;  text-transform: uppercase; margin-bottom: 25px;}
+/* 메인 컨텐츠 크기 */
+.mainContentsW{max-width: 1200px; margin: 0 auto; padding: 120px 0;}
+
+/* 메인 타이틀 */
+.mainContentsW h2{font-size: 39px; font-weight: 700; color: #1a2d66; text-transform: uppercase; display: flex; align-items: flex-end; margin-bottom: 50px;}
+.mainContentsW h2 small{font-size: 22px; color: black; margin-left: 25px;}
+
+.mainTopArea{height: 100vh; background: url('../images/mainBG.png') no-repeat center center / cover; display: flex; align-items: flex-end;}
+.mainTopArea div{width: 50%; display: flex; justify-content: flex-end; position: relative;}
+.mainTopArea div::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 285px; background-color: white;}
+.mainTopArea div h2{font-size: 26px; font-weight: 700; color: #1a2d66; text-align: right; width: 600px; padding: 0 75px; box-sizing: border-box; position: relative; z-index: 1;}
+.mainTopArea div h2 strong{display: block; font-size: 90px; font-weight: bold; line-height: 100px;  text-transform: uppercase; margin-bottom: 25px;}
 
 .mainBuyArea{height: 550px; background: url('../images/mainBuyBG.png') no-repeat center center / cover; display: flex; align-items: flex-end; justify-content: flex-end;}
 .mainBuyArea div{width: 50%; height: 200px; background-color: white; padding-left: 60px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;}
 .mainBuyArea div h2{font-size: 50px; font-weight: 400; color: #1a2d66; margin-bottom: 30px; }
 .mainBuyArea div .plusBtn{width: 230px;}
+
+.mainPrincipleArea{}
+.mainPrincipleArea ol{display: flex; justify-content: space-between; }
+.mainPrincipleArea ol li{ counter-increment: princCounter; width: 31.5%; height: 320px; border: 2px solid #bfbfbf; border-radius: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative;}
+.mainPrincipleArea ol li::before{content:'STEP ' counter(princCounter); font-size: 18px; font-weight: 700; color: #1a2d66; padding-bottom: 5px; width: auto; border-bottom: 1px solid #1a2d66; word-spacing: 5px; margin-bottom: 25px;}
+.mainPrincipleArea ol li p{padding: 140px 25px 0; background-repeat: no-repeat; background-position: center top; font-size: 20px; line-height: 30px;}
+.mainPrincipleArea ol li:nth-child(1) p{background-image: url('../images/mainPrincipleIcon01.png')}
+.mainPrincipleArea ol li:nth-child(2) p{background-image: url('../images/mainPrincipleIcon02.png')}
+.mainPrincipleArea ol li:nth-child(3) p{background-image: url('../images/mainPrincipleIcon03.png')}
+.mainPrincipleArea ol li:not(:last-child)::after{content: ''; position: absolute; right: -50px; top: calc(50% - 34px);  width: 68px; height: 68px; background:url('../images/nextIcon.png') no-repeat center center / cover; z-index: 1;}

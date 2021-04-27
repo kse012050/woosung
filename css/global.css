@@ -6,7 +6,9 @@
 header , .mainArea{width: calc(100% - 130px);}
 
 /* font Poppins */
-.mainArea div h2 strong{font-family: 'Poppins', sans-serif; letter-spacing: -2px;}
+.mainArea div h2 strong,
+.mainPrincipleArea ol li::before
+{font-family: 'Poppins', sans-serif; letter-spacing: -2px;}
 
 /* 플러스 버튼 */
 .plusBtn{display: inline-block; width: 170px; height: 50px; color: white; font-weight: 700; padding: 0 25px; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
