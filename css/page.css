@@ -47,3 +47,17 @@
 .mainResultArea article div:nth-of-type(2) ul li mark{color: #1a2d66;}
 .mainResultArea > div > ul li{font-size: 16px; color: #959595;}
 .mainResultArea > div > ul li:not(:last-child){margin-bottom: 10px;}
+
+.mainCompanyArea{display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 70px;}
+.mainCompanyArea figcaption{max-width: 525px;}
+.mainCompanyArea figcaption h2{line-height: 52px; margin-bottom: 30px;}
+.mainCompanyArea figcaption > a{margin-bottom: 60px;}
+.mainCompanyArea figcaption strong{display: block; font-size: 20px; line-height: 40px; margin-bottom: 40px;}
+.mainCompanyArea figcaption p{font-size: 20px; line-height: 40px; color: #807f7f;}
+
+.mainBoardArea{padding: 80px 0;}
+.mainBoardArea ul{display: flex;}
+.mainBoardArea ul li{width: 25%;}
+.mainBoardArea ul li a p{font-size: 20px; font-weight: 400; color: black; margin-bottom: 15px; max-width: 80%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mainBoardArea ul li a time{font-size: 16px; font-weight: 900; color: #1a2d66;}
+.mainBoardArea:not(:first-of-type){border-top: 2px solid black;}
