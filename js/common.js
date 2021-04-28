@@ -25,9 +25,11 @@ function mainScroll(){
 function mobileMenuClick(){
     $('header .menuBtn').click(function(){
         $('header nav').toggleClass('active');
+        $(this).toggleClass('active');
     })
     
     $('ul.menuArea > li > a').click(function(){
+        $(this).toggleClass('active');
         $(this).next().slideToggle();
     });
 }

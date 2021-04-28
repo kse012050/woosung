@@ -44,14 +44,14 @@
 .mainPrincipleArea ol li:nth-child(1) p{background-image: url('../images/mainPrincipleIcon01.png')}
 .mainPrincipleArea ol li:nth-child(2) p{background-image: url('../images/mainPrincipleIcon02.png')}
 .mainPrincipleArea ol li:nth-child(3) p{background-image: url('../images/mainPrincipleIcon03.png')}
-.mainPrincipleArea ol li:not(:last-child)::after{content: ''; position: absolute; right: calc(50% - 30px); bottom: -55px;  width: 68px; height: 68px; background:url('../images/nextIcon.png') no-repeat center center / cover; z-index: 1;}
+.mainPrincipleArea ol li:not(:last-child)::after{content: ''; position: absolute; right: calc(50% - 41px); bottom: -60px;  width: 82px; height: 82px; background:url('../images/nextIcon02.png') no-repeat center center / cover; z-index: 1;}
 
 /* 메인 임상실험 */
 .mainResultArea{background-color: #f1f2f3;}
 .mainResultArea h2{margin-bottom: 30px;}
 .mainResultArea article{padding: 60px 0; border-width: 1px 0; border-style: solid; border-color: #cfd0d0; display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center; text-align: center; margin-bottom: 30px;}
 .mainResultArea article h3{font-size: 31px; font-weight: 700; margin-bottom: 15px; color: #1a2d66;}
-.mainResultArea article p{font-size: 24px; margin-bottom: 60px;}
+.mainResultArea article p{font-size: 24px; margin-bottom: 60px; letter-spacing: -2px;}
 .mainResultArea article div{max-width: 315px; margin: 0 auto;}
 .mainResultArea article div:not(:last-of-type){margin-bottom: 65px;}
 .mainResultArea article div img{margin-bottom: 30px; width: 100%;}
