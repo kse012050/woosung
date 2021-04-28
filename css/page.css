@@ -162,8 +162,8 @@
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
 /* 서브페이지(커뮤니티 - 미디어) - 이미지 */
-.mediaArea .mediaImgArea{width: 100%; max-width: 800px; padding:3.125em 0; margin: 0 auto;}
-.mediaArea .mediaImgArea img{width: 100%;}
+.mediaImgArea{width: 100%; max-width: 800px; padding:3.125em 0; margin: 0 auto;}
+.mediaImgArea img{width: 100%;}
 }
 
 
@@ -327,8 +327,8 @@
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
 /* 서브페이지(커뮤니티 - 미디어) - 이미지 */
-.mediaArea .mediaImgArea{width: 100%; max-width: 800px; padding:50px 0; margin: 0 auto;}
-.mediaArea .mediaImgArea img{width: 100%;}
+.mediaImgArea{width: 100%; max-width: 800px; padding:50px 0; margin: 0 auto;}
+.mediaImgArea img{width: 100%;}
 }
 
 @media screen and (min-width: 1200px){
@@ -475,6 +475,6 @@
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
 /* 서브페이지(커뮤니티 - 미디어) - 이미지 */
-.mediaArea .mediaImgArea{width: 65%; padding:50px 0; margin: 0 auto;}
-.mediaArea .mediaImgArea img{width: 100%;}
+.mediaImgArea{width: 65%; padding:50px 0; margin: 0 auto;}
+.mediaImgArea img{width: 100%;}
 }
