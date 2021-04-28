@@ -189,7 +189,7 @@ footer > div > p{font-style: 22px; font-weight: 400; color: #6f7483; text-align:
 .plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
 
 /* width 100& - 130px */
-/* header , */ .mainTopArea{width: calc(100% - 130px);}
+/* header , */ .mainTopArea, .subArea .subTopArea{width: calc(100% - 130px);}
 
 header{position: fixed; left: 0; top: 0;  height: 100px; display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 0 130px 0 80px; box-sizing: border-box; z-index: 100;}
 header .menuBtn{display: none;}

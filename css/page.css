@@ -182,6 +182,7 @@
 
 }
 @media screen and (min-width: 1200px){
+
 /* 메인 컨텐츠 크기 */
 .mainContentsW{max-width: 1200px; margin: 0 auto; padding: 120px 0;}
 
