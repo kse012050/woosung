@@ -107,7 +107,7 @@ footer > div > p{font-style: 1.375rem; font-weight: 400; color: #6f7483; text-al
 .plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
 
 /* width 100& - 130px */
-/* header , */ .mainTopArea{width: 100%;}
+/* header , */ .mainTopArea , .subArea .subTopArea{width: 100%;}
 
 header{position: fixed; left: 0; top: 0;  height: 100px; display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 0 30px; box-sizing: border-box; z-index: 100; background-color: white; border-bottom: 1px solid #dcdcdc;}
 header .menuBtn{display: block; width: 45px; cursor: pointer;}
