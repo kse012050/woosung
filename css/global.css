@@ -53,10 +53,11 @@ header nav > ul.mobileSns li a{display: block; text-align: center; background-re
 header nav > ul.mobileSns li:nth-child(1) a{background-image: url('../images/cacaoIcon.png');}
 header nav > ul.mobileSns li:nth-child(2) a{background-image: url('../images/telIcon.png');}
 
-aside{position: fixed; right: 0; top: 0; width: 130px; height: 100%; display: flex; align-items: flex-end; display: none;}
-aside ul{display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 100%; text-align: center; height: 320px; }
+aside{position: fixed; right: 0; bottom: 0; width: 130px; display: flex; align-items: flex-end; z-index: 100;}
+aside ul{display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 100%; text-align: center;}
 aside ul li{width: 100%;}
 aside ul li a{display: block; width: 100%; padding-top: 65px; background-repeat: no-repeat; background-position: center top; background-size: 52px 52px; font-size: 16px; font-weight: 500; color: black;}
+aside ul li:not(:last-of-type){display: none;}
 aside ul li:nth-child(1) a{background-image: url('../images/cacaoIcon.png');}
 aside ul li:nth-child(2) a{background-image: url('../images/telIcon.png');}
 aside ul li:nth-child(3) a{background-image: url('../images/topIcon.png');}
@@ -123,7 +124,7 @@ header nav > ul.menuArea > li > ul li:hover a{color: #1a2d66;}
 header.on{background-color: white; border-bottom: 1px solid #dcdcdc;}
 
 aside{position: fixed; right: 0; top: 0; width: 130px; height: 100%; display: flex; align-items: flex-end;}
-aside ul{display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 100%; text-align: center; height: 320px; }
+aside ul{display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 100%; text-align: center; height: 320px;  z-index: 100;}
 aside ul li{width: 100%;}
 aside ul li a{display: block; width: 100%; padding-top: 65px; background-repeat: no-repeat; background-position: center top; background-size: 52px 52px; font-size: 16px; font-weight: 500; color: black;}
 aside ul li:nth-child(1) a{background-image: url('../images/cacaoIcon.png');}

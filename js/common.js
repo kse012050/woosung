@@ -6,9 +6,17 @@ $(document).ready(function(){
         },
     });
 
+    aUnlink();
     mainScroll();
+    topBtn();
     mobileMenuClick();
 });
+
+function aUnlink(){
+    $('.aUnlink').click(function(e){
+        e.preventDefault()
+    })
+}
 
 
 function mainScroll(){
@@ -21,6 +29,12 @@ function mainScroll(){
     });
 }
 
+function topBtn(){
+    $('.topBtn').click(function(){
+        console.log(1);
+        $('html').animate({scrollTop : 0});
+    })
+}
 
 function mobileMenuClick(){
     $('header .menuBtn').click(function(){
