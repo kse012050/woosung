@@ -12,12 +12,13 @@ mark{background-color: transparent;}
 {font-family: 'Poppins', sans-serif; letter-spacing: -2px;}
 
 
-/* 플러스 버튼 */
-.plusBtn{display: inline-block; font-size: 16px; width: 170px; height: 50px; color: white; font-weight: 700; padding: 0 25px; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
-.plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
 
 
 @media screen and (min-width: 640px) and (max-width: 1199px){
+    /* 플러스 버튼 */
+.plusBtn{display: inline-block; font-size: 20px; width: 200px; height: 60px; color: white; font-weight: 700; padding: 0 25px; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
+.plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
+
 /* width 100& - 130px */
 /* header , */ .mainTopArea{width: 100%;}
 
@@ -57,30 +58,35 @@ aside ul li:nth-child(2) a{background-image: url('../images/telIcon.png');}
 aside ul li:nth-child(3) a{background-image: url('../images/topIcon.png');}
 aside ul li a{font-size: 16px; font-weight: 500;}
 
-footer{background-color: #22283c; color: white; display: none;}
-footer > div{max-width: 1200px; margin: 0 auto; padding: 50px 0;}
-footer > div > div{display: flex; justify-content: space-between; align-items: center; margin-bottom: 80px;}
-footer > div > div > ul{display: flex;}
-footer > div > div > ul li:not(:last-child){margin-right: 40px;}
-footer > div > div > ul li a{font-size: 20px; color: white;}
-footer > div > div > div{display: flex;}
-footer > div > div > div > ul{display: flex; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.15); margin-right: 40px;}
+footer{background-color: #22283c; color: white;}
+footer > div{padding: 80px 0;}
+footer > div > div{margin-bottom: 125px;}
+footer > div > div > ul{display: flex; justify-content: center; margin-bottom: 80px;}
+footer > div > div > ul li:not(:last-child){margin-right: 50px;}
+footer > div > div > ul li a{font-size: 24px; color: white;}
+footer > div > div > div{display: flex; flex-direction: column; align-items: center;}
+footer > div > div > div > ul{display: flex; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.15); margin-bottom: 30px;}
 footer > div > div > div > ul li{display: flex; align-items: center;}
 footer > div > div > div > ul li:not(:first-child)::before{content: ''; width: 5px; height: 5px; margin: 0 20px; border-radius: 100%; background-color: rgba(255, 255, 255, 0.15);}
-footer > div > div > div > ul li a{font-size: 16px; font-weight: 400; color: #8189a1;}
-footer > div > div > div > a{width: 285px; height: 60px; color: black; font-size: 20px; font-weight: 900; padding: 0 25px; background-color: white; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
-footer > div > div > div > a::before{content: ''; width: 31px; height: 31px; background: url('../images/telIcon02.png') no-repeat center / cover;}
-footer h2{max-width: 192px; margin-bottom: 35px;}
+footer > div > div > div > ul li a{font-size: 20px; font-weight: 400; color: #8189a1;}
+footer > div > div > div > a{width: 340px; height: 75px; color: black; font-size: 24px; font-weight: 900; padding: 0 30px; background-color: white; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
+footer > div > div > div > a::before{content: ''; width: 38px; height: 38px; background: url('../images/telIcon02.png') no-repeat center / cover;}
+footer h2{max-width: 218px; margin-bottom: 35px; text-align: center;}
 footer h2 img{width: 100%;}
-footer address{font-size: 18px; font-weight: 400; color: white; line-height: 33px; font-style: normal; display: flex; flex-wrap: wrap; margin-bottom: 25px;}
-footer address h3{width: 100%;}
-footer address div{display: flex; margin-right: 30px;}
+footer address{font-size: 22px; font-weight: 400; color: white; line-height: 37px; font-style: normal; display: flex; justify-content: center; flex-wrap: wrap; margin-bottom: 30px;}
+footer address *{font-weight: 400;}
+footer address h3{width: 100%; text-align: center;}
+footer address div{display: flex; margin:0 15px; text-align: center;}
 footer address div h4::after{content: ':';}
-footer > div > p{font-style: 18px; font-weight: 400; color: #6f7483;}
+footer > div > p{font-style: 22px; font-weight: 400; color: #6f7483; text-align: center;}
 }
 
 /* pc */
 @media screen and (min-width: 1200px){
+/* 플러스 버튼 */
+.plusBtn{display: inline-block; font-size: 16px; width: 170px; height: 50px; color: white; font-weight: 700; padding: 0 25px; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
+.plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
+
 /* width 100& - 130px */
 /* header , */ .mainTopArea{width: calc(100% - 130px);}
 
@@ -122,7 +128,7 @@ aside ul li:nth-child(3) a{background-image: url('../images/topIcon.png');}
 aside ul li a{font-size: 16px; font-weight: 500;}
 
 footer{background-color: #22283c; color: white;}
-footer > div{max-width: 1200px; margin: 0 auto; padding: 50px 0;}
+footer > div{ padding: 50px 0;}
 footer > div > div{display: flex; justify-content: space-between; align-items: center; margin-bottom: 80px;}
 footer > div > div > ul{display: flex;}
 footer > div > div > ul li:not(:last-child){margin-right: 40px;}
