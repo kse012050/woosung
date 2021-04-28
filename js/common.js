@@ -31,7 +31,6 @@ function mainScroll(){
 
 function topBtn(){
     $('.topBtn').click(function(){
-        console.log(1);
         $('html').animate({scrollTop : 0});
     })
 }
@@ -42,8 +41,8 @@ function mobileMenuClick(){
         $(this).toggleClass('active');
     })
     
-    $('ul.menuArea > li > a').click(function(){
+    $('ul.menuArea > li > div button').click(function(){
         $(this).toggleClass('active');
-        $(this).next().slideToggle();
+        $(this).parent().next().slideToggle();
     });
 }

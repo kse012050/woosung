@@ -15,7 +15,7 @@
 
 /* 메인 슬라이더 */
 .mainSliderArea{}
-.mainSliderArea .swiper-container{text-align: center; width: 100%;}
+.mainSliderArea .swiper-container{text-align: center; max-width: 855px; width: 100%;}
 .mainSliderArea .swiper-container img{width: 100%;}
 .mainSliderArea .mainSliderContens{max-width: 855px; margin: 0 auto;}
 .mainSliderArea .mainSliderContens img{width: 100%; max-width: 971px;}
