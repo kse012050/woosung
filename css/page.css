@@ -1,3 +1,98 @@
+
+
+
+
+@media screen and (max-width: 639px){
+/* 메인 컨텐츠 크기 */
+.mainContentsW{width: calc(100% - 3.750rem); margin: 0 auto; padding: 7.500rem 0;}
+
+/* 메인 타이틀 */
+.mainContentsW h2{font-size: 2.688em; font-weight: 700; color: #1a2d66; text-transform: uppercase; display: flex; align-items: flex-end; margin-bottom: 3.125rem; letter-spacing: -2px;}
+.mainContentsW h2 small{font-size: 1.625rem; color: black; margin-left: 1.563rem; letter-spacing: -2px;}
+
+/* 메인 상단 */
+.mainTopArea{height: 63.125rem; background: url('../images/mainBG.png') no-repeat center top / cover; display: flex; align-items: flex-end; margin-top: 1.250rem; margin-bottom: 29.375rem;}
+.mainTopArea div{width: 35.000rem; display: flex; justify-content: flex-end; position: relative; top: 18.125rem;}
+.mainTopArea div::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 100%; background-color: white;}
+.mainTopArea div h2{font-size: 1.625rem; font-weight: 700; color: #1a2d66; text-align: right;padding: 3.125rem 3.750rem 0; box-sizing: border-box; position: relative; z-index: 1;}
+.mainTopArea div h2 strong{display: block; font-size: 5.625rem; font-weight: bold; line-height: 6.250rem;  text-transform: uppercase; margin-bottom: 1.563rem;}
+
+/* 메인 슬라이더 */
+.mainSliderArea{}
+.mainSliderArea .swiper-container{text-align: center; width: 100%;}
+.mainSliderArea .swiper-container img{width: 100%;}
+.mainSliderArea .mainSliderContens{max-width: 83.438em; margin: 0 auto;}
+.mainSliderArea .mainSliderContens img{width: 100%; max-width: 60.688rem;}
+.mainSliderArea .mainSliderContens h2{font-size: 4.500rem; align-items: center;}
+.mainSliderArea .mainSliderContens h2 a{margin-left: 1.250rem;}
+.mainSliderArea .mainSliderContens p{font-size: 1.875rem; font-weight: 700; line-height: 3.000rem;}
+.mainSliderArea .mainSliderContens span{display: block; font-size: 1.625rem; font-weight: 700; line-height: 3.000rem; color: #807f7f;}
+.mainSliderArea .mainSliderContens span mark{font-weight: 700; color: black;}
+
+/* 메인 구매 */
+/* 메인 구매 */
+/* .mainBuyArea{height: 53.125rem; background: url('../images/mainBuyBG.png') no-repeat center center / cover; display: flex; align-items: flex-end; justify-content: flex-end;} */
+.mainBuyArea{position: relative; margin-bottom: 15.000rem;}
+.mainBuyArea img{width: 100%;}
+.mainBuyArea div{position: absolute; right: 0; top:calc(100% - 3.750rem); width: 30.000em; background-color: white; padding:2.500rem 13.125rem 3.750rem 2.500rem; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;}
+.mainBuyArea div h2{font-size: 3.125rem; font-weight: 400; color: #1a2d66; margin-bottom: 1.875rem; }
+.mainBuyArea div .plusBtn{width:14.375rem;}
+
+/* 메인  원리*/
+.mainPrincipleArea{}
+.mainPrincipleArea ol{}
+.mainPrincipleArea ol li{ counter-incrrement: princCounter;  height: 20.313rem; border: 2px solid #bfbfbf; border-radius: 1.250rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative;}
+.mainPrincipleArea ol li:not(:last-child){margin-bottom: 2.500rem;}
+.mainPrincipleArea ol li::before{content:'STEP ' counter(princCounter); font-size: 1.375rem; font-weight: 700; color: #1a2d66; padding-bottom: 0.313rem; width: auto; border-bottom: 1px solid #1a2d66; word-spacing: 0.313rem; margin-bottom: 1.563rem;}
+.mainPrincipleArea ol li p{padding: 8.750rem 1.875rem 0; max-width: 25.000rem; background-repeat: no-repeat; background-position: center top; background-size: 11.000rem 7.000rem; font-size: 1.500rem; line-height: 2.125rem;}
+.mainPrincipleArea ol li:nth-child(1) p{background-image: url('../images/mainPrincipleIcon01.png')}
+.mainPrincipleArea ol li:nth-child(2) p{background-image: url('../images/mainPrincipleIcon02.png')}
+.mainPrincipleArea ol li:nth-child(3) p{background-image: url('../images/mainPrincipleIcon03.png')}
+/* .mainPrincipleArea ol li:not(:last-child)::after{content: ''; position: absolute; right: calc(50% - 2.125rem); bottom: -3.438em;  width: 4.250rem; height: 4.250rem; background:url('../images/nextIcon.png') no-repeat center center / cover; z-index: 1;} */
+.mainPrincipleArea ol li:not(:last-child)::after{content: ''; position: absolute; right: calc(50% - 2.563rem); bottom: -3.750rem;  width: 5.125rem; height: 5.125rem; background:url('../images/nextIcon02.png') no-repeat center center / cover; z-index: 1;}
+
+/* 메인 임상실험 */
+.mainResultArea{background-color: #f1f2f3;}
+.mainResultArea h2{margin-bottom: 1.875rem;}
+.mainResultArea article{padding: 3.750rem 0; border-width: 1px 0; border-style: solid; border-color: #cfd0d0; display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center; text-align: center; margin-bottom: 1.875rem;}
+.mainResultArea article h3{font-size: 1.938rem; font-weight: 700; margin-bottom: 0.938rem; color: #1a2d66;}
+.mainResultArea article p{font-size: 1.500rem; margin-bottom: 3.750rem; letter-spacing: -2px;}
+.mainResultArea article div{max-width: 19.688rem; margin: 0 auto;}
+.mainResultArea article div:not(:last-of-type){margin-bottom: 4.063rem;}
+.mainResultArea article div img{margin-bottom: 1.875rem; width: 100%;}
+.mainResultArea article div ul{margin-left: 2.188rem; padding-left: 1.250rem; border-left-width: 0.188rem; border-style: solid; text-align: left;}
+.mainResultArea article div ul li{font-size: 1.500rem; }
+.mainResultArea article div ul li:not(:last-child){margin-bottom: 0.938rem;}
+.mainResultArea article div:nth-of-type(1) ul{border-color: #e98e24;}
+.mainResultArea article div:nth-of-type(1) ul li mark{color: #e98e24;}
+.mainResultArea article div:nth-of-type(2) ul{border-color: #1a2d66;}
+.mainResultArea article div:nth-of-type(2) ul li mark{color: #1a2d66;}
+.mainResultArea > div > ul li{font-size: 1.250rem; color: #959595; line-height: 1.875rem;}
+.mainResultArea > div > ul li:not(:last-child){}
+
+/* 메인 회사소개 */
+.mainCompanyArea{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;  margin-bottom: 4.375rem;}
+.mainCompanyArea figcaption{margin-bottom: 3.438em;}
+.mainCompanyArea figcaption h2{line-height: 3.250rem; margin-bottom: 1.875rem;}
+.mainCompanyArea figcaption > a{margin-bottom: 3.750rem;}
+.mainCompanyArea figcaption strong{display: block; font-size: 1.500rem; line-height: 2.500rem; margin-bottom: 2.688rem;}
+.mainCompanyArea figcaption p{font-size: 1.500rem; line-height: 2.500rem; color: #807f7f; }
+.mainCompanyArea img{max-width: 42.375rem; width: 100%;}
+
+/* 메인 게시판 */
+.mainBoardArea{padding: 5.000rem 0; position: relative;}
+.mainBoardArea h2{margin-bottom: 5.000rem;}
+.mainBoardArea ul{display: flex; flex-wrap: wrap;}
+.mainBoardArea ul li{width: 50%;}
+.mainBoardArea ul li:nth-child(n + 3){margin-top: 5.000rem;}
+.mainBoardArea ul li a p{font-size: 1.250rem; font-weight: 400; color: black; margin-bottom: 0.938rem; max-width: 80%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mainBoardArea ul li a time{font-size: 1rem; font-weight: 900; color: #1a2d66;}
+.mainBoardArea:not(:first-of-type){border-top: 2px solid black;}
+.mainBoardArea > a{position: absolute; right: 0; top: 5.313em; width: 0.875rem; height: 0.875rem; background: url('../images/plusIocn.png') no-repeat center / cover; text-indent: -9999px;}
+}
+
+
+
 @media screen and (min-width: 640px) and (max-width: 1199px){
 /* 메인 컨텐츠 크기 */
 .mainContentsW{width: calc(100% - 60px); margin: 0 auto; padding: 120px 0;}
