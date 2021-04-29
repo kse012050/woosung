@@ -1,34 +1,8 @@
 
 @media screen and (min-width: 640px) and (max-width: 1199px){
-/* 이용약관 */
-.termsArea{padding: 55px 0;}
-.termsArea .mainContentsW{padding: 0;}
-.termsArea > div{ font-size: 22px; line-height: 32px; color: #757575;}
-.termsArea > div > p{margin-bottom: 30px;}
-.termsArea > div > b{display: block; color: black; margin-bottom: 60px;}
-.termsArea > div > b span{display: block; font-size: 28px;}
-.termsArea > div ol{}
-.termsArea > div ol li{counter-increment: termsCounter;}
-.termsArea > div ol li:not(:last-child){margin-bottom: 60px;}
-.termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 26px; color: black;}
-.termsArea > div ol li strong{ font-size: 26px; color: black;}
-.termsArea > div ol li strong::before{content: '(';}
-.termsArea > div ol li strong::after{content: ')';} 
+
 }
 
 @media screen and (min-width: 1200px){
-/* 이용약관 */
-.termsArea{padding: 60px 0;}
-.termsArea .mainContentsW{padding: 0;}
-.termsArea > div{ font-size: 18px; line-height: 31px; color: #757575;}
-.termsArea > div > p{margin-bottom: 30px;}
-.termsArea > div > b{display: block; color: black; margin-bottom: 60px;}
-.termsArea > div > b span{display: block; font-size: 24px;}
-.termsArea > div ol{}
-.termsArea > div ol li{counter-increment: termsCounter;}
-.termsArea > div ol li:not(:last-child){margin-bottom: 60px;}
-.termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 22px; color: black;}
-.termsArea > div ol li strong{ font-size: 22px; color: black;}
-.termsArea > div ol li strong::before{content: '(';}
-.termsArea > div ol li strong::after{content: ')';}
+
 }

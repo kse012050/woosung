@@ -110,14 +110,14 @@
                     <form>
                         <fieldset>
                             <ul>
-                                <li><label for="">이름</label><input type="text"></li>
-                                <li><label for="">이메일</label><input type="text"></li>
-                                <li><label for="">전화번호</label><input type="text"></li>
-                                <li><label for="">문의사항</label><textarea name="" id="" cols="30" rows="10"></textarea></li>
+                                <li><label for="userName">이름<span>*</span></label><input type="text" id="userName"></li>
+                                <li><label for="userEmail">이메일</label><input type="text" id="userEmail"></li>
+                                <li><label for="userTel">전화번호<span>*</span></label><input type="text" id="userTel"></li>
+                                <li><label for="userMessage">문의사항<span>*</span></label><textarea id="userMessage"></textarea></li>
                             </ul>
                             <div class="agreeBox">
-                                <input type="checkbox">
-                                <label for="">개인정보보호정책과 마케팅활용에 동의합니다.</label>
+                                <input type="checkbox" id="userAgree">
+                                <label for="userAgree">개인정보보호정책과 마케팅활용에 동의합니다.</label>
                             </div>
                         </fieldset>
                         <input type="submit" value="제출하기" class="btn">

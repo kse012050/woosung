@@ -184,15 +184,13 @@
 .detailArea .prevNextList span{color: #a5a5a5; text-align: center; margin-right: 4.375rem;}
 .detailArea .prevNextList p{flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.2;}
 
-.btn{display: block; width: 12.500rem; line-height: 3.750rem; font-size: 1.250rem; font-weight: 700; text-align: center; color: white; background-color: #525252; border-radius: 100px; margin: 0 auto;}
-
 /* 고객센터 상세 - 공통 */
 .serviceArea .subTopArea{background-image: url('../images/serviceBG.png');}
 .serviceArea .subTopArea > div{top: 8.750rem;}
 
 /* 고객센터 */
 .servicePageArea > div{padding: 4.375em 0; background-color: #1a2d66; border-radius: 20px; margin-bottom: 5.000rem;  display: flex; flex-direction: column; align-items: center;}
-.servicePageArea > div > *{max-width:33.750rem; text-align: center;}
+.servicePageArea > div > *{max-width:22.500rem; text-align: center;}
 .servicePageArea > div > p{font-size: 2.500rem; line-height: 3.375rem; font-weight: 100; color: white; display: flex; flex-direction: column; align-items: center; }
 .servicePageArea > div > strong{font-size: 2.500rem; line-height: 3.375rem; font-weight: 100; color: white; font-weight: 700; margin-bottom: 3.750rem;}
 .servicePageArea > div > strong span{border-bottom: 1px solid white;}
@@ -222,7 +220,7 @@
 .serviceProductArea > p mark{color: #1a2d66;}
 
 /* 고객센터 상세 - 문의사항 */
-.questionsArea strong{font-size: 1.938rem; font-weight: 700; color: #1a2d66;}
+.questionsArea strong{font-size: 1.938rem; font-weight: 700; color: #1a2d66; letter-spacing: -1px;}
 .questionsArea p{font-size: 1.625rem; color: #757575; padding: 1.563em 0;}
 .questionsArea .questionsBox fieldset{padding: 3.125em 0; border-width: 1px 0; border-style: solid; border-color: rgba(0, 0, 0, 0.2); margin-bottom: 3.125rem;}
 .questionsArea .questionsBox fieldset ul{max-width: 50.000rem; margin: 0 auto 2.500rem;}
@@ -230,6 +228,7 @@
 .questionsArea .questionsBox fieldset ul li:not(:last-child){margin-bottom: 3.125rem;}
 .questionsArea .questionsBox fieldset ul li:last-child{align-items: flex-start;}
 .questionsArea .questionsBox fieldset ul li label{font-size: 1.375rem; margin-bottom: 1.250rem;}
+.questionsArea .questionsBox fieldset ul li label span{color: #ee293c;}
 .questionsArea .questionsBox fieldset ul li input,.questionsArea .questionsBox fieldset ul li textarea
 {width: 100%;  border: 1px solid #e0e0e0; padding: 1.563rem; box-sizing: border-box;}
 .questionsArea .questionsBox fieldset ul li input{height: 3.750rem;}
@@ -249,9 +248,23 @@
 .oftenArea .oftenList li button.active{color: #1a2d66; border-color: #1a2d66;}
 .oftenArea .oftenList li button.active::after{background-image: url('../images/closeIcon.png');}
 .oftenArea .oftenList li p{padding: 1.875rem; font-size: 1.375rem; line-height: 2.000rem; color: #757575; background-color: #f9f9f9; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 10px; display: none;}
+
+
+/* 이용약관 */
+.termsArea{padding: 3.438em 0;}
+.termsArea .mainContentsW{padding: 0;}
+.termsArea > div{ font-size: 1.375rem; line-height: 2.000rem; color: #757575;}
+.termsArea > div > p{margin-bottom: 1.875rem;}
+.termsArea > div > b{display: block; color: black; margin-bottom: 3.750rem;}
+.termsArea > div > b span{display: block; font-size: 1.750rem;}
+.termsArea > div ol{}
+.termsArea > div ol li{counter-increment: termsCounter;}
+.termsArea > div ol li:not(:last-child){margin-bottom: 3.750rem;}
+.termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 1.625rem; color: black;}
+.termsArea > div ol li strong{ font-size: 1.625rem; color: black;}
+.termsArea > div ol li strong::before{content: '(';}
+.termsArea > div ol li strong::after{content: ')';} 
 }
-
-
 
 @media screen and (min-width: 640px) and (max-width: 1199px){
 /* 메인 컨텐츠 크기 */
@@ -434,8 +447,6 @@
 .detailArea .prevNextList span{color: #a5a5a5; text-align: center; margin-right: 70px;}
 .detailArea .prevNextList p{flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.2;}
 
-.btn{display: block; width: 200px; line-height: 60px; font-size: 20px; font-weight: 700; text-align: center; color: white; background-color: #525252; border-radius: 100px; margin: 0 auto;}
-
 /* 고객센터 상세 - 공통 */
 .serviceArea .subTopArea{background-image: url('../images/serviceBG.png');}
 .serviceArea .subTopArea > div{top: 140px;}
@@ -480,6 +491,7 @@
 .questionsArea .questionsBox fieldset ul li:not(:last-child){margin-bottom: 50px;}
 .questionsArea .questionsBox fieldset ul li:last-child{align-items: flex-start;}
 .questionsArea .questionsBox fieldset ul li label{font-size: 22px; margin-bottom: 20px;}
+.questionsArea .questionsBox fieldset ul li label span{color: #ee293c;}
 .questionsArea .questionsBox fieldset ul li input,.questionsArea .questionsBox fieldset ul li textarea
 {width: 100%;  border: 1px solid #e0e0e0; padding: 25px; box-sizing: border-box;}
 .questionsArea .questionsBox fieldset ul li input{height: 60px;}
@@ -500,6 +512,21 @@
 .oftenArea .oftenList li button.active::after{background-image: url('../images/closeIcon.png');}
 .oftenArea .oftenList li p{padding: 30px; font-size: 22px; line-height: 32px; color: #757575; background-color: #f9f9f9; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 10px; display: none;}
 
+
+/* 이용약관 */
+.termsArea{padding: 55px 0;}
+.termsArea .mainContentsW{padding: 0;}
+.termsArea > div{ font-size: 22px; line-height: 32px; color: #757575;}
+.termsArea > div > p{margin-bottom: 30px;}
+.termsArea > div > b{display: block; color: black; margin-bottom: 60px;}
+.termsArea > div > b span{display: block; font-size: 28px;}
+.termsArea > div ol{}
+.termsArea > div ol li{counter-increment: termsCounter;}
+.termsArea > div ol li:not(:last-child){margin-bottom: 60px;}
+.termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 26px; color: black;}
+.termsArea > div ol li strong{ font-size: 26px; color: black;}
+.termsArea > div ol li strong::before{content: '(';}
+.termsArea > div ol li strong::after{content: ')';} 
 }
 
 @media screen and (min-width: 1200px){
@@ -624,7 +651,7 @@
 .boardArea ul li > *{min-height: 60px; display: flex; justify-content: space-between; align-items: center; padding:10px 0; box-sizing: border-box; }
 .boardArea ul li > * *{font-size: 18px; box-sizing: border-box;}
 .boardArea ul li > * > div{display: flex; flex: 1; align-items: center;}
-.boardArea ul li > * p{flex: 1; padding-left:20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.boardArea ul li > * p{flex: 1; padding-left:20px; line-height: 1.2;}
 .boardArea ul li > * span{width: 120px; text-align: center;}
 .boardArea ul li > * span img{width: 100%;}
 .boardArea ul li > div > *{color: #1a2d66;}
@@ -668,8 +695,6 @@
 .detailArea .prevNextList span{width: 85px; color: #a5a5a5; text-align: center;}
 .detailArea .prevNextList p{flex: 1;}
 
-.btn{display: block; width: 170px; line-height: 50px; font-size: 16px; font-weight: 700; text-align: center; color: white; background-color: #525252; border-radius: 100px; margin: 0 auto;}
-
 /* 고객센터 상세 - 공통 */
 .serviceArea .subTopArea{background-image: url('../images/serviceBG.png');}
 
@@ -709,6 +734,7 @@
 .questionsArea .questionsBox fieldset ul li:not(:last-child){margin-bottom: 30px;}
 .questionsArea .questionsBox fieldset ul li:last-child{align-items: flex-start;}
 .questionsArea .questionsBox fieldset ul li label{font-size: 18px;}
+.questionsArea .questionsBox fieldset ul li label span{color: #ee293c;}
 .questionsArea .questionsBox fieldset ul li input,.questionsArea .questionsBox fieldset ul li textarea
 {width: 680px;  border: 1px solid #e0e0e0; padding: 25px; box-sizing: border-box;}
 .questionsArea .questionsBox fieldset ul li input{width: 680px; height: 50px;}
@@ -729,4 +755,19 @@
 .oftenArea .oftenList li button.active::after{background-image: url('../images/closeIcon.png');}
 .oftenArea .oftenList li p{padding: 30px; font-size: 18px; line-height: 28px; color: #757575; background-color: #f9f9f9; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 10px; display: none;}
 
+
+/* 이용약관 */
+.termsArea{padding: 60px 0;}
+.termsArea .mainContentsW{padding: 0;}
+.termsArea > div{ font-size: 18px; line-height: 31px; color: #757575;}
+.termsArea > div > p{margin-bottom: 30px;}
+.termsArea > div > b{display: block; color: black; margin-bottom: 60px;}
+.termsArea > div > b span{display: block; font-size: 24px;}
+.termsArea > div ol{}
+.termsArea > div ol li{counter-increment: termsCounter;}
+.termsArea > div ol li:not(:last-child){margin-bottom: 60px;}
+.termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 22px; color: black;}
+.termsArea > div ol li strong{ font-size: 22px; color: black;}
+.termsArea > div ol li strong::before{content: '(';}
+.termsArea > div ol li strong::after{content: ')';}
 }

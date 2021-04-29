@@ -16,8 +16,10 @@ mark{background-color: transparent;}
 /* mobile */
 @media screen and (max-width: 639px){
 html{font-size: 2.5vw;}
+/* 버튼 */
+.btn{display: block; width: 12.500rem; line-height: 3.750rem; font-size: 1.250rem; font-weight: 700; text-align: center; color: white; background-color: #525252; border-radius: 100px; margin: 0 auto;}
 
-    /* 플러스 버튼 */
+/* 플러스 버튼 */
 .plusBtn{display: inline-block; font-size: 1.250rem; width: 12.500rem; height: 3.750rem; color: white; font-weight: 700; padding: 0 1.563rem; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
 .plusBtn::after{content: ''; width: 0.875rem; height: 0.875rem; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
 
@@ -99,10 +101,11 @@ footer address div h4::after{content: ':';}
 footer > div > p{font-style: 1.375rem; font-weight: 400; color: #6f7483; text-align: center;}
 }
 
-
-
 @media screen and (min-width: 640px) and (max-width: 1199px){
-    /* 플러스 버튼 */
+/* 버튼 */
+.btn{display: block; width: 200px; line-height: 60px; font-size: 20px; font-weight: 700; text-align: center; color: white; background-color: #525252; border-radius: 100px; margin: 0 auto;}
+
+/* 플러스 버튼 */
 .plusBtn{display: inline-block; font-size: 20px; width: 200px; height: 60px; color: white; font-weight: 700; padding: 0 25px; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
 .plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
 
@@ -184,6 +187,9 @@ footer > div > p{font-style: 22px; font-weight: 400; color: #6f7483; text-align:
 
 /* pc */
 @media screen and (min-width: 1200px){
+/* 버튼 */
+.btn{display: block; width: 170px; line-height: 50px; font-size: 16px; font-weight: 700; text-align: center; color: white; background-color: #525252; border-radius: 100px; margin: 0 auto;}
+
 /* 플러스 버튼 */
 .plusBtn{display: inline-block; font-size: 16px; width: 170px; height: 50px; color: white; font-weight: 700; padding: 0 25px; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
 .plusBtn::after{content: ''; width: 14px; height: 14px; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}

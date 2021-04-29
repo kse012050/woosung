@@ -6,10 +6,23 @@ $(document).ready(function(){
         },
     });
 
+    // a 링크 막기
     aUnlink();
+
+    // 모바일
     mainScroll();
-    topBtn();
     mobileMenuClick();
+    topBtn();
+
+    // 자주 묻는 질문
+    serviceOften();
+
+    $(window).resize(function(){
+        var windowWidth = $(window).width() + 20;
+        if(windowWidth > 1200){
+            $('header nav > ul.menuArea > li > ul').css('display','block');
+        }
+    })
 });
 
 function aUnlink(){
@@ -46,6 +59,9 @@ function mobileMenuClick(){
         $(this).parent().next().slideToggle();
     });
 
+}
+
+function serviceOften(){
     $('.oftenList button').click(function(){
         $(this).toggleClass('active');
         $(this).next().slideToggle();
