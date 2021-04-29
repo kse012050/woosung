@@ -1,3 +1,16 @@
 @media screen and (max-width: 639px){
+.subArea.case2{padding-top: 0;}
+.subArea.case2 header{background: transparent; border: none;}
+.subArea.case2 header.on{background-color: white; border-bottom: 1px solid #dcdcdc;}
+.subArea.case2 header:hover{background-color: white;}
+/* 상품소개 - 공통 */
+.productArea .subTopArea{background-image: url('../images/productBG.png');}
+.productArea .mainContentsW{padding-top: 12.500rem;}
 
+.subArea.case2 .subTopArea .pageGuide{display: none;}
+
+.tabBtnCoas2{display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.2);}
+.tabBtnCoas2 li a{display: block; font-size: 1.688rem; font-weight: bold; color: #1a2d66; opacity: 0.4; padding: 2.188rem 0; position: relative; text-align: center;}
+.tabBtnCoas2 li.active a,.tabBtnCoas2 li:hover a{opacity: 1;}
+.tabBtnCoas2 li.active a::after{content: ''; position: absolute; width: 0.875rem; height: 0.875rem; background-color: #1a2d66; border-radius: 100%; bottom: -0.438rem; left: calc(50% - 0.438em);}
 }
