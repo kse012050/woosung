@@ -95,6 +95,7 @@
 .subArea{padding-top: 6.250rem;}
 .subArea header{background-color: white; border-bottom: 1px solid #dcdcdc;}
 
+/* 서브페이지 공통 - 상단 */
 .subArea .subTopArea{height: 34.375rem; display: flex; align-items: flex-end;  background-repeat: no-repeat; background-position: center right; background-size: cover; position: relative;}
 .subArea .subTopArea > div{width: 26.875rem; background-color: white; padding: 1.875rem; display: flex; flex-direction: column; position: relative; top: 10.938rem;}
 .subArea .subTopArea > div .pageGuide div{display: flex; margin-bottom: 2.188rem;}
@@ -104,6 +105,12 @@
 .subArea .subTopArea > div h2{font-size: 3.375rem; font-weight: 700; margin-bottom: 1.563rem;}
 .subArea .subTopArea > div p{font-size: 1.625rem; font-weight: 300; line-height: 2.500rem;}
 .subArea > section > .mainContentsW{padding-top: 13.750rem;}
+
+/* 서브페이지 공통 - 상단 case2*/
+.subArea.case2{padding-top: 0;}
+.subArea.case2 header{background: transparent; border: none;}
+.subArea.case2 header.on{background-color: white; border-bottom: 1px solid #dcdcdc;}
+.subArea.case2 header:hover{background-color: white;}
 
 /* 서브페이지 - 커뮤니티 배경 */
 .subArea .cummunityArea .subTopArea{background-image: url('../images/cummunityBG.png');}
@@ -160,6 +167,18 @@
 .boardArea .borardPager ol{display: flex; justify-content: center; background-color: #f0f0f0; border-radius: 10px;}
 .boardArea .borardPager ol li.active a,
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
+
+/* 상품소개 - 공통 */
+.productArea .subTopArea{background-image: url('../images/productBG.png');}
+.productArea .mainContentsW{padding-top: 12.500rem;}
+.subArea.case2 .subTopArea .pageGuide{display: none;}
+
+/* 상품소개 - 공통 tab*/
+.tabBtnCoas2{display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.2);}
+.tabBtnCoas2 li a{display: block; font-size: 1.688rem; font-weight: bold; color: #1a2d66; opacity: 0.4; padding: 2.188rem 0; position: relative; text-align: center;}
+.tabBtnCoas2 li.active a,.tabBtnCoas2 li:hover a{opacity: 1;}
+.tabBtnCoas2 li.active a::after{content: ''; position: absolute; width: 0.875rem; height: 0.875rem; background-color: #1a2d66; border-radius: 100%; bottom: -0.438rem; left: calc(50% - 0.438em);}
+
 
 /* 커뮤니티 상세- 미디어 이미지 */
 .mediaImgArea{width: 100%; max-width: 800px; padding:3.125em 0; margin: 0 auto;}
@@ -358,6 +377,7 @@
 .subArea{padding-top: 100px;}
 .subArea header{background-color: white; border-bottom: 1px solid #dcdcdc;}
 
+/* 서브페이지 공통  - 상단*/
 .subArea .subTopArea{height: 550px; display: flex; align-items: flex-end;  background-repeat: no-repeat; background-position: center right; background-size: cover; position: relative;}
 .subArea .subTopArea > div{width: 430px; background-color: white; padding: 30px; display: flex; flex-direction: column; position: relative; top: 175px;}
 .subArea .subTopArea > div .pageGuide div{display: flex; margin-bottom: 35px;}
@@ -367,6 +387,12 @@
 .subArea .subTopArea > div h2{font-size: 54px; font-weight: 700; margin-bottom: 25px;}
 .subArea .subTopArea > div p{font-size: 26px; font-weight: 300; line-height: 40px;}
 .subArea > section > .mainContentsW{padding-top: 220px;}
+
+/* 서브페이지 공통  - 상단 case2*/
+.subArea.case2{padding-top: 0;}
+.subArea.case2 header{background: transparent; border: none;}
+.subArea.case2 header.on{background-color: white; border-bottom: 1px solid #dcdcdc;}
+.subArea.case2 header:hover{background-color: white;}
 
 /* 서브페이지 - 커뮤니티 배경 */
 .subArea .cummunityArea .subTopArea{background-image: url('../images/cummunityBG.png');}
@@ -423,6 +449,18 @@
 .boardArea .borardPager ol{display: flex; justify-content: center; background-color: #f0f0f0; border-radius: 10px;}
 .boardArea .borardPager ol li.active a,
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
+
+/* 상품소개 - 공통 */
+.productArea .subTopArea{background-image: url('../images/productBG.png');}
+.productArea .mainContentsW{padding-top: 200px;}
+.subArea.case2 .subTopArea .pageGuide{display: none;}
+
+/* 상품소개 - 공통 tab*/
+.tabBtnCoas2{display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.2);}
+.tabBtnCoas2 li a{display: block; font-size: 27px; font-weight: bold; color: #1a2d66; opacity: 0.4; padding: 35px 0; position: relative; text-align: center;}
+.tabBtnCoas2 li.active a,.tabBtnCoas2 li:hover a{opacity: 1;}
+.tabBtnCoas2 li.active a::after{content: ''; position: absolute; width: 14px; height: 14px; background-color: #1a2d66; border-radius: 100%; bottom: -7px; left: calc(50% - 7px);}
+
 
 /* 커뮤니티 상세- 미디어 이미지 */
 .mediaImgArea{width: 100%; max-width: 800px; padding:50px 0; margin: 0 auto;}
@@ -616,6 +654,7 @@
 .subArea{padding-top: 100px;}
 .subArea header{background-color: white; border-bottom: 1px solid #dcdcdc;}
 
+/* 서브페이지 상단 */
 .subArea .subTopArea{height: 446px; display: flex; align-items: flex-end;  background-repeat: no-repeat; background-position: center right; background-size: cover; position: relative;}
 .subArea .subTopArea > div{width: calc(50% + 65px); height: 180px; background-color: white; padding-top: 45px; display: flex; flex-direction: column; justify-content: center; align-items: flex-end;}
 .subArea .subTopArea > div .pageGuide{position: absolute; right: 0; bottom: -54px; }
@@ -626,6 +665,16 @@
 .subArea .subTopArea > div h2{font-size: 50px; font-weight: 700; margin-bottom: 20px;}
 .subArea .subTopArea > div p{font-size: 22px; font-weight: 300; line-height: 34px;}
 .subArea > section .mainContentsW{padding-top: 190px;}
+
+/* 서브페이지 상단 case2*/
+.subArea.case2{padding-top: 0;}
+.subArea.case2 header{background: transparent; border: none;}
+.subArea.case2 header.on{background-color: white; border-bottom: 1px solid #dcdcdc;}
+.subArea.case2 header:hover{background-color: white;}
+.subArea.case2 .subTopArea .pageGuide{display: none;}
+.subArea.case2 .subTopArea > div{background-color: transparent;}
+.subArea.case2 .subTopArea .subTitle > *{position: relative; z-index: 1;}
+.subArea.case2 .subTopArea .subTitle::after{content: ''; position: absolute; left: 0; bottom: 0; width: calc(50% + 65px); height: 120px; background-color: white;}
 
 /* 서브페이지 - 커뮤니티 배경 */
 .subArea .cummunityArea .subTopArea{background-image: url('../images/cummunityBG.png');}
@@ -671,6 +720,17 @@
 .boardArea .borardPager ol{display: flex; justify-content: center; background-color: #f0f0f0; border-radius: 10px;}
 .boardArea .borardPager ol li.active a,
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
+
+
+/* 상품소개 - 공통 */
+.productArea .subTopArea{background-image: url('../images/productBG.png');}
+
+/* 상품소개 - 공통 tab*/
+.tabBtnCoas2{display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.2);}
+.tabBtnCoas2 li a{display: block; font-size: 27px; font-weight: bold; color: #1a2d66; opacity: 0.4; padding: 35px 0; position: relative;}
+.tabBtnCoas2 li.active a,.tabBtnCoas2 li:hover a{opacity: 1;}
+.tabBtnCoas2 li.active a::after{content: ''; position: absolute; width: 14px; height: 14px; background-color: #1a2d66; border-radius: 100%; bottom: -7px; left: calc(50% - 7px);}
+
 
 /* 커뮤니티 상세- 미디어 이미지 */
 .mediaImgArea{width: 65%; padding:50px 0; margin: 0 auto;}

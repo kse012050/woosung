@@ -1,39 +1,8 @@
 
 @media screen and (min-width: 640px) and (max-width: 1199px){
-.subArea.case2{padding-top: 0;}
-.subArea.case2 header{background: transparent; border: none;}
-.subArea.case2 header.on{background-color: white; border-bottom: 1px solid #dcdcdc;}
-.subArea.case2 header:hover{background-color: white;}
-/* 상품소개 - 공통 */
-.productArea .subTopArea{background-image: url('../images/productBG.png');}
-.productArea .mainContentsW{padding-top: 200px;}
 
-.subArea.case2 .subTopArea .pageGuide{display: none;}
-
-.tabBtnCoas2{display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.2);}
-.tabBtnCoas2 li a{display: block; font-size: 27px; font-weight: bold; color: #1a2d66; opacity: 0.4; padding: 35px 0; position: relative; text-align: center;}
-.tabBtnCoas2 li.active a,.tabBtnCoas2 li:hover a{opacity: 1;}
-.tabBtnCoas2 li.active a::after{content: ''; position: absolute; width: 14px; height: 14px; background-color: #1a2d66; border-radius: 100%; bottom: -7px; left: calc(50% - 7px);}
 }
 
 @media screen and (min-width: 1200px){
-.subArea.case2{padding-top: 0;}
-.subArea.case2 header{background: transparent; border: none;}
-.subArea.case2 header.on{background-color: white; border-bottom: 1px solid #dcdcdc;}
-.subArea.case2 header:hover{background-color: white;}
-/* 상품소개 - 공통 */
-.productArea .subTopArea{background-image: url('../images/productBG.png');}
 
-.subArea.case2{}
-.subArea.case2 .subTopArea .pageGuide{display: none;}
-.subArea.case2 .subTopArea > div{background-color: transparent;}
-.subArea.case2 .subTopArea > div::after{}
-.subArea.case2 .subTopArea .subTitle{}
-.subArea.case2 .subTopArea .subTitle > *{position: relative; z-index: 1;}
-.subArea.case2 .subTopArea .subTitle::after{content: ''; position: absolute; left: 0; bottom: 0; width: calc(50% + 65px); height: 120px; background-color: white;}
-
-.tabBtnCoas2{display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.2);}
-.tabBtnCoas2 li a{display: block; font-size: 27px; font-weight: bold; color: #1a2d66; opacity: 0.4; padding: 35px 0; position: relative;}
-.tabBtnCoas2 li.active a,.tabBtnCoas2 li:hover a{opacity: 1;}
-.tabBtnCoas2 li.active a::after{content: ''; position: absolute; width: 14px; height: 14px; background-color: #1a2d66; border-radius: 100%; bottom: -7px; left: calc(50% - 7px);}
 }
