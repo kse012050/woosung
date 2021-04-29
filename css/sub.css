@@ -1,85 +1,8 @@
 
 @media screen and (min-width: 640px) and (max-width: 1199px){
-/* 고객센터 상세 - 공통 */
-.serviceArea .subTopArea{background-image: url('../images/serviceBG.png');}
-.serviceArea .subTopArea > div{top: 140px;}
-
-/* 고객센터 상세 - 제품사용 */
-.serviceArea .videoImgArea{margin-bottom: 30px;}
-.serviceArea .videoImgArea > *{width: 100%;}
-.serviceProductArea > p{height: 170px; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size: 27px; line-height: 37px; color: #757575; border: 1px solid #1a2d66;}
-.serviceProductArea > p::before{content: ''; width: 64px; height: 64px; background: url('../images/serviceIcon.png') no-repeat center / cover; margin-right: 50px;}
-.serviceProductArea > p mark{color: #1a2d66;}
-
-/* 고객센터 상세 - 문의사항 */
-.questionsArea strong{font-size: 31px; font-weight: 700; color: #1a2d66;}
-.questionsArea p{font-size: 26px; color: #757575; padding: 25px 0;}
-.questionsArea .questionsBox fieldset{padding: 50px 0; border-width: 1px 0; border-style: solid; border-color: rgba(0, 0, 0, 0.2); margin-bottom: 50px;}
-.questionsArea .questionsBox fieldset ul{max-width: 800px; margin: 0 auto 40px;}
-.questionsArea .questionsBox fieldset ul li{display: flex; flex-direction: column;}
-.questionsArea .questionsBox fieldset ul li:not(:last-child){margin-bottom: 50px;}
-.questionsArea .questionsBox fieldset ul li:last-child{align-items: flex-start;}
-.questionsArea .questionsBox fieldset ul li label{font-size: 22px; margin-bottom: 20px;}
-.questionsArea .questionsBox fieldset ul li input,.questionsArea .questionsBox fieldset ul li textarea
-{width: 100%;  border: 1px solid #e0e0e0; padding: 25px; box-sizing: border-box;}
-.questionsArea .questionsBox fieldset ul li input{height: 60px;}
-.questionsArea .questionsBox fieldset ul li textarea{ height: 400px; resize: none;}
-.questionsArea .questionsBox fieldset .agreeBox{max-width: 800px; margin: 0 auto; display: flex; align-items: center;}
-.questionsArea .questionsBox fieldset .agreeBox input[type="checkbox"]{width: 30px; height: 30px; border: 1px solid #e0e0e0; margin-right: 10px;}
-.questionsArea .questionsBox fieldset .agreeBox label{font-size: 22px; color: #a5a5a5;}
-.questionsArea .questionsBox input[type="submit"]{border: none; background-color: #1a2d66;}
-
-/* 고객센터 상세 - 자주 묻는 질문 */
-.oftenArea .searchBox{  width: 100%; margin-left: auto; margin-bottom: 30px;}
-.oftenArea .searchBox input[type="search"],.oftenArea .searchBox input[type="search"]::placeholder{flex: 1; font-size: 22px; color: #a5a5a5;}
-.oftenArea .oftenList{padding-top: 50px;  border-top: 1px solid rgba(0, 0, 0, 0.2);}
-.oftenArea .oftenList li:not(:last-child){margin-bottom: 20px;}
-.oftenArea .oftenList li button{width: 100%; min-height: 90px; padding: 0 30px; font-size: 22px; color: #757575; text-align: left; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; background-color: transparent; border-width: 1px; border-color: rgba(0, 0, 0, 0.2); border-radius: 10px; margin-bottom: 10px;}
-.oftenArea .oftenList li button::after{content: ''; width: 22px; height: 12px; background-image: url('../images/openIcon.png'); background-repeat: no-repeat; background-size: cover; background-position: center; margin-left: 20px;}
-.oftenArea .oftenList li button.active{color: #1a2d66; border-color: #1a2d66;}
-.oftenArea .oftenList li button.active::after{background-image: url('../images/closeIcon.png');}
-.oftenArea .oftenList li p{padding: 30px; font-size: 22px; line-height: 32px; color: #757575; background-color: #f9f9f9; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 10px; display: none;}
 
 }
 
 @media screen and (min-width: 1200px){
-/* 고객센터 상세 - 공통 */
-.serviceArea .subTopArea{background-image: url('../images/serviceBG.png');}
-
-/* 고객센터 상세 - 제품사용 */
-.serviceArea .videoImgArea{margin-bottom: 30px;}
-.serviceArea .videoImgArea > *{width: 100%;}
-.serviceProductArea > p{height: 105px; display: flex; justify-content: center; align-items: center; font-size: 27px; color: #757575; border: 1px solid #1a2d66; margin-bottom: 40px;}
-.serviceProductArea > p::before{content: ''; width: 64px; height: 64px; background: url('../images/serviceIcon.png') no-repeat center / cover; margin-right: 50px;}
-.serviceProductArea > p mark{color: #1a2d66;}
-
-/* 고객센터 상세 - 문의사항 */
-.questionsArea strong{font-size: 27px; font-weight: 700; color: #1a2d66;}
-.questionsArea p{font-size: 22px; color: #757575; padding: 25px 0;}
-.questionsArea .questionsBox fieldset{padding: 50px 0; border-width: 1px 0; border-style: solid; border-color: rgba(0, 0, 0, 0.2); margin-bottom: 50px;}
-.questionsArea .questionsBox fieldset ul{max-width: 800px; margin: 0 auto 20px;}
-.questionsArea .questionsBox fieldset ul li{display: flex; justify-content: space-between; align-items: center;}
-.questionsArea .questionsBox fieldset ul li:not(:last-child){margin-bottom: 30px;}
-.questionsArea .questionsBox fieldset ul li:last-child{align-items: flex-start;}
-.questionsArea .questionsBox fieldset ul li label{font-size: 18px;}
-.questionsArea .questionsBox fieldset ul li input,.questionsArea .questionsBox fieldset ul li textarea
-{width: 680px;  border: 1px solid #e0e0e0; padding: 25px; box-sizing: border-box;}
-.questionsArea .questionsBox fieldset ul li input{width: 680px; height: 50px;}
-.questionsArea .questionsBox fieldset ul li textarea{height: 220px; resize: none;}
-.questionsArea .questionsBox fieldset .agreeBox{width: 570px; margin: 0 auto; display: flex; align-items: center;}
-.questionsArea .questionsBox fieldset .agreeBox input[type="checkbox"]{width: 20px; height: 20px; border: 1px solid #e0e0e0; margin-right: 10px;}
-.questionsArea .questionsBox fieldset .agreeBox label{font-size: 18px; color: #a5a5a5;}
-.questionsArea .questionsBox input[type="submit"]{border: none; background-color: #1a2d66;}
-
-/* 고객센터 상세 - 자주 묻는 질문 */
-.oftenArea .searchBox{  width: 50%; margin-left: auto; margin-bottom: 30px;}
-.oftenArea .searchBox input[type="search"],.oftenArea .searchBox input[type="search"]::placeholder{flex: 1; font-size: 18px; color: #a5a5a5;}
-.oftenArea .oftenList{padding-top: 50px;  border-top: 1px solid rgba(0, 0, 0, 0.2);}
-.oftenArea .oftenList li:not(:last-child){margin-bottom: 20px;}
-.oftenArea .oftenList li button{width: 100%; height: 80px; padding: 0 30px; font-size: 22px; color: #757575; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; background-color: transparent; border-width: 1px; border-color: rgba(0, 0, 0, 0.2); border-radius: 10px; margin-bottom: 10px;}
-.oftenArea .oftenList li button::after{content: ''; width: 22px; height: 12px; background-image: url('../images/openIcon.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
-.oftenArea .oftenList li button.active{color: #1a2d66; border-color: #1a2d66;}
-.oftenArea .oftenList li button.active::after{background-image: url('../images/closeIcon.png');}
-.oftenArea .oftenList li p{padding: 30px; font-size: 18px; line-height: 28px; color: #757575; background-color: #f9f9f9; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 10px; display: none;}
 
 }
