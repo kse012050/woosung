@@ -1,8 +1,48 @@
 
 @media screen and (min-width: 640px) and (max-width: 1199px){
-
+/* 고객센터 */
+.servicePageArea > div{padding: 70px 0; background-color: #1a2d66; border-radius: 20px; margin-bottom: 80px;  display: flex; flex-direction: column; align-items: center;}
+.servicePageArea > div > *{max-width:360px; text-align: center;}
+.servicePageArea > div > p{font-size: 40px; line-height: 54px; font-weight: 100; color: white; display: flex; flex-direction: column; align-items: center; }
+.servicePageArea > div > strong{font-size: 40px; line-height: 54px; font-weight: 100; color: white; font-weight: 700; margin-bottom: 60px;}
+.servicePageArea > div > strong span{border-bottom: 1px solid white;}
+.servicePageArea > div ul{display: flex; width: 100%; flex-direction: column;}
+.servicePageArea > div ul li{flex: 1; text-align: center; }
+.servicePageArea > div ul li a{display: block; color: white; padding-top: 90px; background-repeat: no-repeat; background-position: center top; background-size: 67px 60px;}
+.servicePageArea > div ul li:not(:last-child){margin-bottom: 60px;}
+.servicePageArea > div ul li:nth-child(1) a{background-image: url('../images/serviceIcon01.png');}
+.servicePageArea > div ul li:nth-child(2) a{background-image: url('../images/serviceIcon02.png');}
+.servicePageArea > div ul li:nth-child(3) a{background-image: url('../images/serviceIcon03.png');}
+.servicePageArea > div ul li a p{font-size: 28px; font-weight: 100; margin-bottom: 20px;}
+.servicePageArea > div ul li a strong{font-size: 31px;}
+.servicePageArea > ul{display: flex; flex-direction: column;}
+.servicePageArea > ul li{height: 410px; border: 1px solid #1a2d66; border-radius:20px; padding: 0 60px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #1a2d66; text-align: center; box-sizing: border-box;}
+.servicePageArea > ul li:not(:last-child){margin-bottom: 30px;}
+.servicePageArea > ul li strong{font-size: 40px; padding-top: 100px; margin-bottom: 20px;  background-repeat: no-repeat; background-position: center top; background-size: 64px 64px;} 
+.servicePageArea > ul li:nth-child(1) strong{background-image: url('../images/serviceIcon04.png');}
+.servicePageArea > ul li:nth-child(2) strong{background-image: url('../images/serviceIcon05.png');}
+.servicePageArea > ul li:nth-child(3) strong{background-image: url('../images/serviceIcon06.png');}
+.servicePageArea > ul li p{font-size: 26px; line-height: 38px; font-weight: 100; margin-bottom: 35px;}
 }
 
 @media screen and (min-width: 1200px){
-
+/* 고객센터 */
+.servicePageArea > div{padding: 100px 0 90px; background-color: #1a2d66; border-radius: 20px; margin-bottom: 80px; display: flex; flex-direction: column; align-items: center;}
+.servicePageArea > div > p{font-size: 36px; line-height: 50px; font-weight: 100; color: white; display: flex; flex-direction: column; align-items: center;}
+.servicePageArea > div > strong{font-size: 36px; line-height: 50px; font-weight: 100; color: white; font-weight: 700; border-bottom: 1px solid white; margin-bottom: 95px;}
+.servicePageArea > div ul{display: flex; width: 100%;}
+.servicePageArea > div ul li{flex: 1; text-align: center; }
+.servicePageArea > div ul li a{display: block; color: white; padding-top: 90px; background-repeat: no-repeat; background-position: center top; background-size: 56px 50px;}
+.servicePageArea > div ul li:nth-child(1) a{background-image: url('../images/serviceIcon01.png');}
+.servicePageArea > div ul li:nth-child(2) a{background-image: url('../images/serviceIcon02.png');}
+.servicePageArea > div ul li:nth-child(3) a{background-image: url('../images/serviceIcon03.png');}
+.servicePageArea > div ul li a p{font-size: 24px; font-weight: 100; margin-bottom: 15px;}
+.servicePageArea > div ul li a strong{font-size: 27px;}
+.servicePageArea > ul{display: flex; justify-content: space-between;}
+.servicePageArea > ul li{width: 380px; height: 425px; border: 1px solid #1a2d66; border-radius:20px; padding: 0 40px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #1a2d66; text-align: center; box-sizing: border-box;}
+.servicePageArea > ul li strong{font-size: 36px; padding-top: 100px; margin-bottom: 25px;  background-repeat: no-repeat; background-position: center top; background-size: 64px 64px;} 
+.servicePageArea > ul li:nth-child(1) strong{background-image: url('../images/serviceIcon04.png');}
+.servicePageArea > ul li:nth-child(2) strong{background-image: url('../images/serviceIcon05.png');}
+.servicePageArea > ul li:nth-child(3) strong{background-image: url('../images/serviceIcon06.png');}
+.servicePageArea > ul li p{font-size: 22px; line-height: 34px; font-weight: 100; margin-bottom: 35px;}
 }

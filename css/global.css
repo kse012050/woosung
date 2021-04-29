@@ -18,7 +18,7 @@ mark{background-color: transparent;}
 html{font-size: 2.5vw;}
 
     /* 플러스 버튼 */
-.plusBtn{display: inline-block; font-size: 1.250rem; width: 10.000rem; height: 3.000rem; color: white; font-weight: 700; padding: 0 1.250rem; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
+.plusBtn{display: inline-block; font-size: 1.250rem; width: 12.500rem; height: 3.750rem; color: white; font-weight: 700; padding: 0 1.563rem; background-color: #1a2d66; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; border-radius: 100px;}
 .plusBtn::after{content: ''; width: 0.875rem; height: 0.875rem; background: url('../images/plusBtnIcon.png') no-repeat center center / cover;}
 
 /* width 100& - 11.875rem */
