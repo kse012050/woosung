@@ -122,9 +122,9 @@
 .searchArea select{width: 15.313rem; height: 4.063rem; padding: 0 1.250rem; border-color: #d0d0d0;}
 .searchArea select:nth-of-type(1){width: 100%;}
 .searchArea select:nth-of-type(2){align-self: flex-end;}
-.searchArea .searchBox{display: flex;}
-.searchArea .searchBox input[type="search"]{flex: 1; height: 4.063rem; padding: 0 1.250rem; border-width: 1px; border-color: #d0d0d0; border-style: solid; }
-.searchArea .searchBox input[type="button"].searchBtn{width: 4.063rem; height: 4.063rem; background: url('../images/searchIcon.png') no-repeat center / cover; border: none; background-color: #1a2d66; text-indent: -9999px;}
+.searchBox{display: flex;}
+.searchBox input[type="search"]{flex: 1; height: 4.063rem; padding: 0 1.250rem; border-width: 1px; border-color: #d0d0d0; border-style: solid; }
+.searchBox input[type="button"].searchBtn{width: 4.063rem; height: 4.063rem; background: url('../images/searchIcon.png') no-repeat center / cover; border: none; background-color: #1a2d66; text-indent: -9999px;}
 
 /* 서브페이지 - 게시판 */
 .boardArea ul{margin-bottom: 3.125rem;}
@@ -161,12 +161,12 @@
 .boardArea .borardPager ol li.active a,
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
-/* 서브페이지(커뮤니티 - 미디어) - 이미지 */
+/* 커뮤니티 상세- 미디어 이미지 */
 .mediaImgArea{width: 100%; max-width: 800px; padding:3.125em 0; margin: 0 auto;}
 .mediaImgArea img{width: 100%;}
 
 
-/* 커뮤니티 - 상세 */
+/* 커뮤니티 상세- 공통*/
 .detailArea{padding: 3.125em 0;}
 .detailArea > *{box-sizing: border-box;}
 .detailArea *:not(strong){font-size: 1.375rem; color: #757575;}
@@ -308,9 +308,9 @@
 .searchArea select{width: 245px; height: 65px; padding: 0 20px; border-color: #d0d0d0;}
 .searchArea select:nth-of-type(1){width: 100%;}
 .searchArea select:nth-of-type(2){align-self: flex-end;}
-.searchArea .searchBox{display: flex;}
-.searchArea .searchBox input[type="search"]{flex: 1; height: 65px; padding: 0 20px; border-width: 1px; border-color: #d0d0d0; border-style: solid; }
-.searchArea .searchBox input[type="button"].searchBtn{width: 65px; height: 65px; background: url('../images/searchIcon.png') no-repeat center / cover; border: none; background-color: #1a2d66; text-indent: -9999px;}
+.searchBox{display: flex;}
+.searchBox input[type="search"]{flex: 1; height: 65px; padding: 0 20px; border-width: 1px; border-color: #d0d0d0; border-style: solid; }
+.searchBox input[type="button"].searchBtn{width: 65px; height: 65px; background: url('../images/searchIcon.png') no-repeat center / cover; border: none; background-color: #1a2d66; text-indent: -9999px;}
 
 /* 서브페이지 - 게시판 */
 .boardArea ul{margin-bottom: 50px;}
@@ -347,12 +347,12 @@
 .boardArea .borardPager ol li.active a,
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
-/* 서브페이지(커뮤니티 - 미디어) - 이미지 */
+/* 커뮤니티 상세- 미디어 이미지 */
 .mediaImgArea{width: 100%; max-width: 800px; padding:50px 0; margin: 0 auto;}
 .mediaImgArea img{width: 100%;}
 
 
-/* 커뮤니티 - 상세 */
+/* 커뮤니티 상세- 공통*/
 .detailArea{padding: 50px 0;}
 .detailArea > *{box-sizing: border-box;}
 .detailArea *:not(strong){font-size: 22px; color: #757575;}
@@ -484,9 +484,9 @@
 .searchArea *{font-size: 18px; font-weight: 400;}
 .searchArea span{color: #1a2d66;}
 .searchArea select{width: 200px; height: 53px; padding: 0 20px; border-color: #d0d0d0;}
-.searchArea .searchBox{display: flex;}
-.searchArea .searchBox input[type="search"]{width: 550px; height: 53px; padding: 0 20px; border-width: 1px; border-color: #d0d0d0; border-style: solid; }
-.searchArea .searchBox input[type="button"].searchBtn{width: 53px; height: 53px; background: url('../images/searchIcon.png') no-repeat center / cover; border: none; background-color: #1a2d66; text-indent: -9999px;}
+.searchBox{display: flex;}
+.searchBox input[type="search"]{width: 550px; height: 53px; padding: 0 20px; border-width: 1px; border-color: #d0d0d0; border-style: solid; }
+.searchBox input[type="button"].searchBtn{width: 53px; height: 53px; background: url('../images/searchIcon.png') no-repeat center / cover; border: none; background-color: #1a2d66; text-indent: -9999px;}
 
 /* 서브페이지 - 게시판 */
 .boardArea ul{margin-bottom: 50px;}
@@ -495,7 +495,7 @@
 .boardArea ul li > *{min-height: 60px; display: flex; justify-content: space-between; align-items: center; padding:10px 0; box-sizing: border-box; }
 .boardArea ul li > * *{font-size: 18px; box-sizing: border-box;}
 .boardArea ul li > * > div{display: flex; flex: 1; align-items: center;}
-.boardArea ul li > * p{flex: 1; padding-left:20px; max-width: 480px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.boardArea ul li > * p{flex: 1; padding-left:20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .boardArea ul li > * span{width: 120px; text-align: center;}
 .boardArea ul li > * span img{width: 100%;}
 .boardArea ul li > div > *{color: #1a2d66;}
@@ -516,12 +516,12 @@
 .boardArea .borardPager ol li.active a,
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
-/* 서브페이지(커뮤니티 - 미디어) - 이미지 */
+/* 커뮤니티 상세- 미디어 이미지 */
 .mediaImgArea{width: 65%; padding:50px 0; margin: 0 auto;}
 .mediaImgArea img{width: 100%;}
 
 
-/* 커뮤니티 - 상세 */
+/* 커뮤니티 상세- 공통*/
 .detailArea{padding: 60px 0;}
 .detailArea > *{padding: 0 30px; box-sizing: border-box;}
 .detailArea *:not(strong){font-size: 18px; color: #757575;}

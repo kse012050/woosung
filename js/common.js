@@ -45,4 +45,9 @@ function mobileMenuClick(){
         $(this).toggleClass('active');
         $(this).parent().next().slideToggle();
     });
+
+    $('.oftenList button').click(function(){
+        $(this).toggleClass('active');
+        $(this).next().slideToggle();
+    });
 }

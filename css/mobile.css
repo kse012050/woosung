@@ -1,4 +1,41 @@
 @media screen and (max-width: 639px){
+/* 고객센터 상세 - 공통 */
+.serviceArea .subTopArea{background-image: url('../images/serviceBG.png');}
+.serviceArea .subTopArea > div{top: 8.750rem;}
 
+/* 고객센터 상세 - 제품사용 */
+.serviceArea .videoImgArea{margin-bottom: 1.875rem;}
+.serviceArea .videoImgArea > *{width: 100%;}
+.serviceProductArea > p{height: 10.625rem; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size: 1.688rem; line-height: 2.313rem; color: #757575; border: 1px solid #1a2d66;}
+.serviceProductArea > p::before{content: ''; width: 4.000rem; height: 4.000rem; background: url('../images/serviceIcon.png') no-repeat center / cover; margin-right: 3.125rem;}
+.serviceProductArea > p mark{color: #1a2d66;}
 
+/* 고객센터 상세 - 문의사항 */
+.questionsArea strong{font-size: 1.938rem; font-weight: 700; color: #1a2d66;}
+.questionsArea p{font-size: 1.625rem; color: #757575; padding: 1.563em 0;}
+.questionsArea .questionsBox fieldset{padding: 3.125em 0; border-width: 1px 0; border-style: solid; border-color: rgba(0, 0, 0, 0.2); margin-bottom: 3.125rem;}
+.questionsArea .questionsBox fieldset ul{max-width: 50.000rem; margin: 0 auto 2.500rem;}
+.questionsArea .questionsBox fieldset ul li{display: flex; flex-direction: column;}
+.questionsArea .questionsBox fieldset ul li:not(:last-child){margin-bottom: 3.125rem;}
+.questionsArea .questionsBox fieldset ul li:last-child{align-items: flex-start;}
+.questionsArea .questionsBox fieldset ul li label{font-size: 1.375rem; margin-bottom: 1.250rem;}
+.questionsArea .questionsBox fieldset ul li input,.questionsArea .questionsBox fieldset ul li textarea
+{width: 100%;  border: 1px solid #e0e0e0; padding: 1.563rem; box-sizing: border-box;}
+.questionsArea .questionsBox fieldset ul li input{height: 3.750rem;}
+.questionsArea .questionsBox fieldset ul li textarea{ height: 25.000rem; resize: none;}
+.questionsArea .questionsBox fieldset .agreeBox{max-width: 50.000rem; margin: 0 auto; display: flex; align-items: center;}
+.questionsArea .questionsBox fieldset .agreeBox input[type="checkbox"]{width: 1.875rem; height: 1.875rem; border: 1px solid #e0e0e0; margin-right: 0.625rem;}
+.questionsArea .questionsBox fieldset .agreeBox label{font-size: 1.375rem; color: #a5a5a5;}
+.questionsArea .questionsBox input[type="submit"]{border: none; background-color: #1a2d66;}
+
+/* 고객센터 상세 - 자주 묻는 질문 */
+.oftenArea .searchBox{  width: 100%; margin-left: auto; margin-bottom: 1.875rem;}
+.oftenArea .searchBox input[type="search"],.oftenArea .searchBox input[type="search"]::placeholder{flex: 1; font-size: 1.375rem; color: #a5a5a5;}
+.oftenArea .oftenList{padding-top: 3.125rem;  border-top: 1px solid rgba(0, 0, 0, 0.2);}
+.oftenArea .oftenList li:not(:last-child){margin-bottom: 1.250rem;}
+.oftenArea .oftenList li button{width: 100%; min-height: 5.625rem; padding: 0 1.875rem; font-size: 1.375rem; color: #757575; text-align: left; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; background-color: transparent; border-width: 1px; border-color: rgba(0, 0, 0, 0.2); border-radius: 10px; margin-bottom: 0.625rem;}
+.oftenArea .oftenList li button::after{content: ''; width: 1.375rem; height: 0.750rem; background-image: url('../images/openIcon.png'); background-repeat: no-repeat; background-size: cover; background-position: center; margin-left: 1.250rem;}
+.oftenArea .oftenList li button.active{color: #1a2d66; border-color: #1a2d66;}
+.oftenArea .oftenList li button.active::after{background-image: url('../images/closeIcon.png');}
+.oftenArea .oftenList li p{padding: 1.875rem; font-size: 1.375rem; line-height: 2.000rem; color: #757575; background-color: #f9f9f9; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 10px; display: none;}
 }
