@@ -11,7 +11,8 @@ mark{background-color: transparent;}
 .mainCompanyArea figcaption h2
 {font-family: 'Poppins', sans-serif; letter-spacing: -2px;}
 
-
+/* 제품소개 */
+.productArea .imgBox img{width: 100%;}
 
 /* mobile */
 @media screen and (max-width: 639px){
