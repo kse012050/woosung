@@ -1,28 +1,22 @@
 $(document).ready(function(){
-    var swiper = new Swiper('.mainSliderArea .swiper-container', {
-        navigation: {
-          nextEl: '.mainSliderArea .swiper-button-next',
-          prevEl: '.mainSliderArea .swiper-button-prev',
-        },
-    });
+    
 
     // a 링크 막기
     aUnlink();
-
-    // 모바일
-    mainScroll();
-    mobileMenuClick();
-    topBtn();
+    // 메뉴 스크롤 이벤트
+    menuScroll();
+    // 메인
+    mainSlider()
 
     // 자주 묻는 질문
     serviceOften();
 
-    $(window).resize(function(){
-        var windowWidth = $(window).width() + 20;
-        if(windowWidth > 1200){
-            $('header nav > ul.menuArea > li > ul').css('display','block');
-        }
-    })
+    // 모바일
+    mobileMenuClick();
+    topBtn();
+
+
+    
 });
 
 function aUnlink(){
@@ -31,8 +25,16 @@ function aUnlink(){
     })
 }
 
+function mainSlider(){
+    var mainSwiper = new Swiper('.mainSliderArea .swiper-container', {
+        navigation: {
+          nextEl: '.mainSliderArea .swiper-button-next',
+          prevEl: '.mainSliderArea .swiper-button-prev',
+        },
+    });
+}
 
-function mainScroll(){
+function menuScroll(){
     $(window).scroll(function(){
         if($(window).scrollTop() > 0){
             $('header').addClass('on');
@@ -40,6 +42,13 @@ function mainScroll(){
             $('header').removeClass('on');
         }
     });
+
+    $(window).resize(function(){
+        var windowWidth = $(window).width() + 20;
+        if(windowWidth > 1200){
+            $('header nav > ul.menuArea > li > ul').css('display','block');
+        }
+    })
 }
 
 function topBtn(){
@@ -50,6 +59,7 @@ function topBtn(){
 
 function mobileMenuClick(){
     $('header .menuBtn').click(function(){
+        $('header').toggleClass('active');
         $('header nav').toggleClass('active');
         $(this).toggleClass('active');
     })
@@ -58,6 +68,7 @@ function mobileMenuClick(){
         $(this).toggleClass('active');
         $(this).parent().next().slideToggle();
     });
+
 
 }
 

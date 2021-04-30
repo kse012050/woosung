@@ -220,7 +220,7 @@ header nav > ul.menuArea > li > ul{position: absolute; text-align: center; top: 
 header nav > ul.menuArea > li > ul li:first-child{padding-top: 30px;}
 header nav > ul.menuArea > li > ul li:last-child{padding-bottom: 30px;}
 header nav > ul.menuArea > li > ul li:not(:last-child){margin-bottom: 20px;}
-header nav > ul.menuArea > li > ul li a{font-size: 18px; font-weight: 400; color: #969696;}
+header nav > ul.menuArea > li > ul li a{display: block; font-size: 18px; font-weight: 400; color: #969696;}
 header nav > ul.mobileSns{display: none;}
 
 header:hover{background-color: white;}
