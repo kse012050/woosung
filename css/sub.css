@@ -2,6 +2,62 @@
 
 
 @media screen and (min-width: 640px) and (max-width: 1199px){
+/* 초음파치료 - 치료완료 */
+.principleArea{padding-top: 120px;}
+.principleArea > div:nth-of-type(2n){background-color:#f1f2f3; }
+.principleArea .mainContentsW{padding: 100px 0; color: #1a2d66;}
+.principleArea img{width: 100%; padding:25px 0 50px;}
+.principleArea h3{font-size: 52px; font-weight: 700; line-height: 60px; margin-bottom: 30px; }
+.principleArea h3 span{display: block; font-weight: 300;}
+.principleArea h4{font-size: 31px; margin-bottom: 20px; }
+.principleArea h4 span{font-size: 22px;}
+.principleArea li{display: flex;}
+.principleArea ul li::before{content: '·'; font-size: 40px; margin-right:10px;}
+.principleArea ol li{counter-increment: principleOl; }
+.principleArea ol li::before{content: '0' counter(principleOl) '.'; font-weight: 900; margin-right: 20px;}
+.principleArea .mainContentsW > div:not(:last-of-type){margin-bottom: 60px;}
+.principleArea .mainContentsW div *:not(h4){font-size: 22px; line-height: 48px; font-weight: 400; letter-spacing: -1px;}
+.principleArea .mainContentsW div strong{font-weight: 700;}
+
+/* 초음파치료 - 관절염이란? */
+.arthritisArea figure{display: flex; flex-direction: column; }
+.arthritisArea figure img{width: 100%; max-width: 250px; margin-bottom: 20px;}
+.arthritisArea figure:not(:last-of-type){margin-bottom: 100px;}
+.arthritisArea figure figcaption{flex: 1; color: #1a2d66;}
+.arthritisArea figure figcaption h3{font-size: 52px; font-weight: bold; margin-bottom: 45px;}
+.arthritisArea figure figcaption *:not(h3){font-size: 22px; line-height: 41px; font-weight: 400;}
+.arthritisArea figure figcaption strong{display: block; font-size: 22px; font-weight: 700;}
+.arthritisArea figure figcaption strong:not(:first-of-type){margin-top: 20px;}
+
+/* 초음파치료 - 특허 및 허가증 */
+.subArea .subTopArea.case2 > div{top: 95px;}
+    @media screen and (min-width: 960px){
+    .patentArea ul{display: flex; flex-wrap: wrap;}
+    .patentArea ul li{width: 210px; }
+    .patentArea ul li:not(:nth-of-type(4n)){margin-right: calc((100% - (210px * 4)) / 3);}
+    .patentArea ul li:not(:nth-of-type(-n + 4)){margin-top: 120px;}
+    .patentArea ul li figure{}
+    .patentArea ul li figure img{width: 100%; margin-bottom: 30px;}
+    .patentArea ul li figure figcaption{font-size: 22px; line-height: 31px; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
+    }
+    @media screen and (min-width: 760px) and (max-width: 959px){
+    .patentArea ul{display: flex; flex-wrap: wrap;}
+    .patentArea ul li{width: calc((100% - 60px) / 3 ); }
+    .patentArea ul li:not(:nth-of-type(3n)){margin-right: 30px;}
+    .patentArea ul li:not(:nth-of-type(-n + 3)){margin-top: 120px;}
+    .patentArea ul li figure{}
+    .patentArea ul li figure img{width: 100%; margin-bottom: 30px;}
+    .patentArea ul li figure figcaption{font-size: 22px; line-height: 31px; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
+    }
+    @media screen and (max-width: 759px){
+    .patentArea ul{display: flex; flex-wrap: wrap;}
+    .patentArea ul li{width: calc((100% - 30px) / 2); }
+    .patentArea ul li:not(:nth-of-type(2n)){margin-right: 30px;}
+    .patentArea ul li:not(:nth-of-type(-n + 2)){margin-top: 10%;}
+    .patentArea ul li figure{}
+    .patentArea ul li figure img{width: 100%; margin-bottom: 20px;}
+    .patentArea ul li figure figcaption{font-size: 22px; line-height: 31px; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
+    }
 
 }
 
@@ -18,8 +74,8 @@
 .principleArea h4{font-size: 31px; margin-bottom: 20px; }
 .principleArea h4 span{font-size: 22px;}
 .principleArea li{display: flex;}
-.principleArea ul li{align-items: center;}
-.principleArea ul li::before{content: ''; width: 5px; height: 5px; background-color: #1a2d66; border-radius: 100%; margin-right:25px; }
+/* .principleArea ul li::before{content: ''; width: 5px; height: 5px; background-color: #1a2d66; border-radius: 100%; margin-right:25px; } */
+.principleArea ul li::before{content: '·'; font-size: 40px; margin-right:25px;}
 .principleArea ol li{counter-increment: principleOl; }
 .principleArea ol li::before{content: '0' counter(principleOl) '.'; font-weight: 900; margin-right: 45px;}
 .principleArea .mainContentsW > div:not(:last-of-type){margin-bottom: 60px;}
@@ -28,7 +84,7 @@
 
 /* 초음파치료 - 관절염이란? */
 .arthritisArea figure{display: flex; align-items: center;}
-.arthritisArea figure img{width: 462px;}
+.arthritisArea figure img{width: 100%; max-width: 462px;}
 .arthritisArea figure:not(:last-of-type){margin-bottom: 150px;}
 .arthritisArea figure:nth-of-type(2n) img{order: 1;}
 .arthritisArea figure:nth-of-type(2n) figcaption{margin-right: 80px;}

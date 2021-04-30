@@ -104,7 +104,8 @@
 .subArea .subTopArea > div h2 ,.subArea .subTopArea > div p{color: #1a2d66;}
 .subArea .subTopArea > div h2{font-size: 3.375rem; font-weight: 700; margin-bottom: 1.563rem;}
 .subArea .subTopArea > div p{font-size: 1.625rem; font-weight: 300; line-height: 2.500rem;}
-.subArea > section > .mainContentsW{padding-top: 13.750rem;}
+/* .subArea > section > .mainContentsW{padding-top: 13.750rem;} */
+.subArea .mainContentsW{padding-top: 13.750rem;}
 
 /* 서브페이지 공통 - 상단 case2*/
 .subArea.case2{padding-top: 0;}
@@ -386,7 +387,8 @@
 .subArea .subTopArea > div h2 ,.subArea .subTopArea > div p{color: #1a2d66;}
 .subArea .subTopArea > div h2{font-size: 54px; font-weight: 700; margin-bottom: 25px;}
 .subArea .subTopArea > div p{font-size: 26px; font-weight: 300; line-height: 40px;}
-.subArea > section > .mainContentsW{padding-top: 220px;}
+/* .subArea > section > .mainContentsW{padding-top: 220px;} */
+.subArea .mainContentsW{padding-top: 220px;}
 
 /* 서브페이지 공통  - 상단 case2*/
 .subArea.case2{padding-top: 0;}
@@ -675,6 +677,7 @@
 .subArea.case2 .subTopArea > div{background-color: transparent;}
 .subArea.case2 .subTopArea .subTitle > *{position: relative; z-index: 1;}
 .subArea.case2 .subTopArea .subTitle::after{content: ''; position: absolute; left: 0; bottom: 0; width: calc(50% + 65px); height: 120px; background-color: white;}
+.subArea.case2 .subTopArea.case2 .subTitle::after{height: 100px;}
 
 /* 서브페이지 - 커뮤니티 배경 */
 .subArea .cummunityArea .subTopArea{background-image: url('../images/cummunityBG.png');}
