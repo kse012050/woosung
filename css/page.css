@@ -25,7 +25,6 @@
 .mainTopArea div h2 strong{display: block; font-size: 5.625rem; font-weight: bold; line-height: 6.250rem;  text-transform: uppercase; margin-bottom: 1.563rem;}
 
 /* 메인 슬라이더 */
-.mainSliderArea{}
 .mainSliderArea .swiper-container{text-align: center; width: 100%;}
 .mainSliderArea .swiper-container img{width: 100%;}
 .mainSliderArea .mainSliderContens{max-width: 83.438em; margin: 0 auto;}
@@ -38,7 +37,6 @@
 
 /* 메인 구매 */
 /* 메인 구매 */
-/* .mainBuyArea{height: 53.125rem; background: url('../images/mainBuyBG.png') no-repeat center center / cover; display: flex; align-items: flex-end; justify-content: flex-end;} */
 .mainBuyArea{position: relative; margin-bottom: 15.000rem;}
 .mainBuyArea img{width: 100%;}
 .mainBuyArea div{position: absolute; right: 0; top:calc(100% - 3.750rem); width: 30.000em; background-color: white; padding:2.500rem 13.125rem 3.750rem 2.500rem; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;}
@@ -46,16 +44,13 @@
 .mainBuyArea div .plusBtn{width:14.375rem;}
 
 /* 메인  원리*/
-.mainPrincipleArea{}
-.mainPrincipleArea ol{}
-.mainPrincipleArea ol li{ counter-incrrement: princCounter;  height: 20.313rem; border: 2px solid #bfbfbf; border-radius: 1.250rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative;}
+.mainPrincipleArea ol li{counter-increment: princCounter;  height: 20.313rem; border: 2px solid #bfbfbf; border-radius: 1.250rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative;}
 .mainPrincipleArea ol li:not(:last-child){margin-bottom: 2.500rem;}
 .mainPrincipleArea ol li::before{content:'STEP ' counter(princCounter); font-size: 1.375rem; font-weight: 700; color: #1a2d66; padding-bottom: 0.313rem; width: auto; border-bottom: 1px solid #1a2d66; word-spacing: 0.313rem; margin-bottom: 1.563rem;}
 .mainPrincipleArea ol li p{padding: 8.750rem 1.875rem 0; max-width: 25.000rem; background-repeat: no-repeat; background-position: center top; background-size: 11.000rem 7.000rem; font-size: 1.500rem; line-height: 2.125rem;}
 .mainPrincipleArea ol li:nth-child(1) p{background-image: url('../images/mainPrincipleIcon01.png')}
 .mainPrincipleArea ol li:nth-child(2) p{background-image: url('../images/mainPrincipleIcon02.png')}
 .mainPrincipleArea ol li:nth-child(3) p{background-image: url('../images/mainPrincipleIcon03.png')}
-/* .mainPrincipleArea ol li:not(:last-child)::after{content: ''; position: absolute; right: calc(50% - 2.125rem); bottom: -3.438em;  width: 4.250rem; height: 4.250rem; background:url('../images/nextIcon.png') no-repeat center center / cover; z-index: 1;} */
 .mainPrincipleArea ol li:not(:last-child)::after{content: ''; position: absolute; right: calc(50% - 2.563rem); bottom: -3.750rem;  width: 5.125rem; height: 5.125rem; background:url('../images/nextIcon02.png') no-repeat center center / cover; z-index: 1;}
 
 /* 메인 임상실험 */
@@ -75,7 +70,6 @@
 .mainResultArea article div:nth-of-type(2) ul{border-color: #1a2d66;}
 .mainResultArea article div:nth-of-type(2) ul li mark{color: #1a2d66;}
 .mainResultArea > div > ul li{font-size: 1.250rem; color: #959595; line-height: 1.875rem;}
-.mainResultArea > div > ul li:not(:last-child){}
 
 /* 메인 회사소개 */
 .mainCompanyArea{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;  margin-bottom: 4.375rem;}
@@ -111,7 +105,6 @@
 .subArea .subTopArea > div h2 ,.subArea .subTopArea > div p{color: #1a2d66;}
 .subArea .subTopArea > div h2{font-size: 3.375rem; font-weight: 700; margin-bottom: 1.563rem;}
 .subArea .subTopArea > div p{font-size: 1.625rem; font-weight: 300; line-height: 2.500rem;}
-/* .subArea > section > .mainContentsW{padding-top: 13.750rem;} */
 .subArea .mainContentsW{padding-top: 13.750rem;}
 
 /* 서브페이지 공통 - 상단 case2*/
@@ -121,7 +114,6 @@
 .subArea.case2 header:hover{background-color: white; }
 
 /* 서브페이지 - 커뮤니티 배경 */
-/* .subArea .cummunityArea .subTopArea{background-image: url('../images/cummunityBG.png');} */
 
 /*서브페이지 -  탭 */
 .tabBtn{display: flex; justify-content: space-around; padding: 0.938em 0; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
@@ -177,7 +169,6 @@
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
 /* 제품소개 - 공통 */
-/* .productArea .subTopArea{background-image: url('../images/productBG.png');} */
 .productArea .mainContentsW{padding-top: 12.500rem;}
 .subArea.case2 .subTopArea .pageGuide{display: none;}
 
@@ -221,7 +212,6 @@
 .patentArea ul li{width: calc((100% - 1.875em) / 2); }
 .patentArea ul li:not(:nth-of-type(2n)){margin-right: 1.875rem;}
 .patentArea ul li:not(:nth-of-type(-n + 2)){margin-top: 10%;}
-.patentArea ul li figure{}
 .patentArea ul li figure img{width: 100%; margin-bottom: 1.250rem;}
 .patentArea ul li figure figcaption{font-size: 1.375rem; line-height: 1.938rem; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
 
@@ -250,7 +240,6 @@
 .detailArea .prevNextList p{flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.2;}
 
 /* 고객센터 상세 - 공통 */
-/* .serviceArea .subTopArea{background-image: url('../images/serviceBG.png');} */
 .serviceArea .subTopArea > div{top: 8.750rem;}
 
 /* 고객센터 */
@@ -322,7 +311,6 @@
 .termsArea > div > p{margin-bottom: 1.875rem;}
 .termsArea > div > b{display: block; color: black; margin-bottom: 3.750rem;}
 .termsArea > div > b span{display: block; font-size: 1.750rem;}
-.termsArea > div ol{}
 .termsArea > div ol li{counter-increment: termsCounter;}
 .termsArea > div ol li:not(:last-child){margin-bottom: 3.750rem;}
 .termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 1.625rem; color: black;}
@@ -347,7 +335,6 @@
 .mainTopArea div h2 strong{display: block; font-size: 90px; font-weight: bold; line-height: 100px;  text-transform: uppercase; margin-bottom: 25px;}
 
 /* 메인 슬라이더 */
-.mainSliderArea{}
 .mainSliderArea .swiper-container{text-align: center; max-width: 855px; width: 100%;}
 .mainSliderArea .swiper-container img{width: 100%;}
 .mainSliderArea .mainSliderContens{max-width: 855px; margin: 0 auto;}
@@ -360,7 +347,6 @@
 
 /* 메인 구매 */
 /* 메인 구매 */
-/* .mainBuyArea{height: 550px; background: url('../images/mainBuyBG.png') no-repeat center center / cover; display: flex; align-items: flex-end; justify-content: flex-end;} */
 .mainBuyArea{position: relative; margin-bottom: 180px;}
 .mainBuyArea img{width: 100%;}
 .mainBuyArea div{position: absolute; right: 0; top:calc(100% - 60px); width: 480px; background-color: white; padding:40px 150px 60px 40px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;}
@@ -368,8 +354,6 @@
 .mainBuyArea div .plusBtn{width: 230px;}
 
 /* 메인  원리*/
-.mainPrincipleArea{}
-.mainPrincipleArea ol{}
 .mainPrincipleArea ol li{ counter-increment: princCounter;  height: 325px; border: 2px solid #bfbfbf; border-radius: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative;}
 .mainPrincipleArea ol li:not(:last-child){margin-bottom: 40px;}
 .mainPrincipleArea ol li::before{content:'STEP ' counter(princCounter); font-size: 22px; font-weight: 700; color: #1a2d66; padding-bottom: 5px; width: auto; border-bottom: 1px solid #1a2d66; word-spacing: 5px; margin-bottom: 25px;}
@@ -396,7 +380,6 @@
 .mainResultArea article div:nth-of-type(2) ul{border-color: #1a2d66;}
 .mainResultArea article div:nth-of-type(2) ul li mark{color: #1a2d66;}
 .mainResultArea > div > ul li{font-size: 20px; color: #959595; line-height: 30px;}
-.mainResultArea > div > ul li:not(:last-child){}
 
 /* 메인 회사소개 */
 .mainCompanyArea{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;  margin-bottom: 70px;}
@@ -432,7 +415,6 @@
 .subArea .subTopArea > div h2 ,.subArea .subTopArea > div p{color: #1a2d66;}
 .subArea .subTopArea > div h2{font-size: 54px; font-weight: 700; margin-bottom: 25px;}
 .subArea .subTopArea > div p{font-size: 26px; font-weight: 300; line-height: 40px;}
-/* .subArea > section > .mainContentsW{padding-top: 220px;} */
 .subArea .mainContentsW{padding-top: 220px;}
 
 /* 서브페이지 공통  - 상단 case2*/
@@ -442,7 +424,6 @@
 .subArea.case2 header:hover{background-color: white;}
 
 /* 서브페이지 - 커뮤니티 배경 */
-/* .subArea .cummunityArea .subTopArea{background-image: url('../images/cummunityBG.png');} */
 
 /*서브페이지 -  탭 */
 .tabBtn{display: flex; justify-content: space-around; padding: 15px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
@@ -498,7 +479,6 @@
 .boardArea .borardPager ol li:hover a{color: #1a2d66; background-color: white; border: 1px solid #1a2d66;}
 
 /* 제품소개 - 공통 */
-/* .productArea .subTopArea{background-image: url('../images/productBG.png');} */
 .productArea .mainContentsW{padding-top: 200px;}
 .subArea.case2 .subTopArea .pageGuide{display: none;}
 
@@ -543,7 +523,6 @@
     .patentArea ul li{width: 210px; }
     .patentArea ul li:not(:nth-of-type(4n)){margin-right: calc((100% - (210px * 4)) / 3);}
     .patentArea ul li:not(:nth-of-type(-n + 4)){margin-top: 120px;}
-    .patentArea ul li figure{}
     .patentArea ul li figure img{width: 100%; margin-bottom: 30px;}
     .patentArea ul li figure figcaption{font-size: 22px; line-height: 31px; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
     }
@@ -552,7 +531,6 @@
     .patentArea ul li{width: calc((100% - 60px) / 3 ); }
     .patentArea ul li:not(:nth-of-type(3n)){margin-right: 30px;}
     .patentArea ul li:not(:nth-of-type(-n + 3)){margin-top: 120px;}
-    .patentArea ul li figure{}
     .patentArea ul li figure img{width: 100%; margin-bottom: 30px;}
     .patentArea ul li figure figcaption{font-size: 22px; line-height: 31px; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
     }
@@ -561,7 +539,6 @@
     .patentArea ul li{width: calc((100% - 30px) / 2); }
     .patentArea ul li:not(:nth-of-type(2n)){margin-right: 30px;}
     .patentArea ul li:not(:nth-of-type(-n + 2)){margin-top: 10%;}
-    .patentArea ul li figure{}
     .patentArea ul li figure img{width: 100%; margin-bottom: 20px;}
     .patentArea ul li figure figcaption{font-size: 22px; line-height: 31px; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
     }
@@ -591,7 +568,6 @@
 .detailArea .prevNextList p{flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.2;}
 
 /* 고객센터 상세 - 공통 */
-/* .serviceArea .subTopArea{background-image: url('../images/serviceBG.png');} */
 .serviceArea .subTopArea > div{top: 140px;}
 
 /* 고객센터 */
@@ -663,7 +639,6 @@
 .termsArea > div > p{margin-bottom: 30px;}
 .termsArea > div > b{display: block; color: black; margin-bottom: 60px;}
 .termsArea > div > b span{display: block; font-size: 28px;}
-.termsArea > div ol{}
 .termsArea > div ol li{counter-increment: termsCounter;}
 .termsArea > div ol li:not(:last-child){margin-bottom: 60px;}
 .termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 26px; color: black;}
@@ -689,7 +664,6 @@
 .mainTopArea div h2 strong{display: block; font-size: 90px; font-weight: bold; line-height: 100px;  text-transform: uppercase; margin-bottom: 25px;}
 
 /* 메인 슬라이더 */
-.mainSliderArea{}
 .mainSliderArea .swiper-container{text-align: center; width: 100%;}
 .mainSliderArea .mainSliderContens{max-width: 855px; margin: 0 auto;}
 .mainSliderArea .mainSliderContens img{width: 100%; max-width: 971px;}
@@ -700,7 +674,6 @@
 .mainSliderArea .mainSliderContens span mark{font-weight: 700; color: black;}
 
 /* 메인 구매 */
-/* .mainBuyArea{height: 550px; background: url('../images/mainBuyBG.png') no-repeat center center / cover; display: flex; align-items: flex-end; justify-content: flex-end;} */
 .mainBuyArea{position: relative;}
 .mainBuyArea img{width: 100%;}
 .mainBuyArea div{position: absolute; right: 0; bottom: 0; width: 50%; height: 200px; background-color: white; padding-left: 60px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;}
@@ -708,7 +681,6 @@
 .mainBuyArea div .plusBtn{width: 230px;}
 
 /* 메인  원리*/
-.mainPrincipleArea{}
 .mainPrincipleArea ol{display: flex; justify-content: space-between; }
 .mainPrincipleArea ol li{ counter-increment: princCounter; width: 31.5%; height: 320px; border: 2px solid #bfbfbf; border-radius: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative;}
 .mainPrincipleArea ol li::before{content:'STEP ' counter(princCounter); font-size: 18px; font-weight: 700; color: #1a2d66; padding-bottom: 5px; width: auto; border-bottom: 1px solid #1a2d66; word-spacing: 5px; margin-bottom: 25px;}
@@ -783,7 +755,6 @@
 .subArea.case2 .subTopArea.case2 .subTitle::after{height: 100px;}
 
 /* 서브페이지 - 커뮤니티 배경 */
-/* .subArea .cummunityArea .subTopArea{background-image: url('../images/cummunityBG.png');} */
 
 /*서브페이지 -  탭 */
 .tabBtn{display: flex; justify-content: space-around; padding: 15px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
@@ -829,7 +800,6 @@
 
 
 /* 제품소개 - 공통 */
-/* .productArea .subTopArea{background-image: url('../images/productBG.png');} */
 
 /* 제품소개 - 공통 tab*/
 .tabBtnCoas2{display: flex; justify-content: space-between; border-bottom: 1px solid rgba(0,0,0,0.2);}
@@ -850,7 +820,6 @@
 .principleArea h4{font-size: 31px; margin-bottom: 20px; }
 .principleArea h4 span{font-size: 22px;}
 .principleArea li{display: flex;}
-/* .principleArea ul li::before{content: ''; width: 5px; height: 5px; background-color: #1a2d66; border-radius: 100%; margin-right:25px; } */
 .principleArea ul li::before{content: '·'; font-size: 40px; margin-right:25px;}
 .principleArea ol li{counter-increment: principleOl; }
 .principleArea ol li::before{content: '0' counter(principleOl) '.'; font-weight: 900; margin-right: 45px;}
@@ -876,7 +845,6 @@
 .patentArea ul li{width: 210px; }
 .patentArea ul li:not(:nth-of-type(4n)){margin-right: calc((100% - (210px * 4)) / 3);}
 .patentArea ul li:not(:nth-of-type(-n + 4)){margin-top: 120px;}
-.patentArea ul li figure{}
 .patentArea ul li figure img{width: 100%; margin-bottom: 30px;}
 .patentArea ul li figure figcaption{font-size: 22px; line-height: 31px; font-weight: 400; color: #1a2d66; text-align: center; letter-spacing: -1px;}
 
@@ -905,7 +873,6 @@
 .detailArea .prevNextList p{flex: 1;}
 
 /* 고객센터 상세 - 공통 */
-/* .serviceArea .subTopArea{background-image: url('../images/serviceBG.png');} */
 
 /* 고객센터 */
 .servicePageArea > div{padding: 100px 0 90px; background-color: #1a2d66; border-radius: 20px; margin-bottom: 80px; display: flex; flex-direction: column; align-items: center;}
@@ -972,7 +939,6 @@
 .termsArea > div > p{margin-bottom: 30px;}
 .termsArea > div > b{display: block; color: black; margin-bottom: 60px;}
 .termsArea > div > b span{display: block; font-size: 24px;}
-.termsArea > div ol{}
 .termsArea > div ol li{counter-increment: termsCounter;}
 .termsArea > div ol li:not(:last-child){margin-bottom: 60px;}
 .termsArea > div ol li::before{content: '제' counter(termsCounter) '조'; font-size: 22px; color: black;}
