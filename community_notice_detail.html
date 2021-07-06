@@ -15,6 +15,42 @@
     <!-- swiper -->
     <script src="js/swiper.min.js"></script>
     <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- file 추가된 css -->
+    <!-- images 폴더 fileIocn.pmg 파일 추가 되었습니다 -->
+    <style>
+        @media screen and (max-width: 639px){
+            .detailArea .detailFileArea{padding: 1.25rem 0px; }
+            .detailArea .detailFileArea{border-top: 1px solid rgba(0, 0, 0, 0.2);}
+            .detailArea .detailFileArea a{display: flex; align-items: center; color: black;}
+            .detailArea .detailFileArea a::before{content: ''; width: 1.500rem; height: 1.500rem; background: url('images/fileIcon.png') no-repeat center / 1.5rem 1.5rem; margin-right: 0.625em;}
+            .detailArea .detailFileArea a span{color: black; margin-left: 0.3125rem;}
+            .detailArea .detailFileArea a span::before{content: '(';}
+            .detailArea .detailFileArea a span::after{content: ')';}
+            .detailArea .detailFileArea a:not(:last-child){margin-bottom: 0.625rem;}
+        }
+        @media screen and (min-width: 640px) and (max-width: 1199px){
+            .detailArea .detailFileArea{padding: 20px 0px; }
+            .detailArea .detailFileArea{border-top: 1px solid rgba(0, 0, 0, 0.2);}
+            .detailArea .detailFileArea a{display: flex; align-items: center; color: black;}
+            .detailArea .detailFileArea a::before{content: ''; width: 24px; height: 24px; background: url('images/fileIcon.png') no-repeat center / 24px 24px; margin-right: 10px;}
+            .detailArea .detailFileArea a span{color: black; margin-left: 5px;}
+            .detailArea .detailFileArea a span::before{content: '(';}
+            .detailArea .detailFileArea a span::after{content: ')';}
+            .detailArea .detailFileArea a:not(:last-child){margin-bottom: 10px;}
+        }
+        @media screen and (min-width: 1200px){
+            .detailArea .detailFileArea{padding: 20px 30px; }
+            .detailArea .detailFileArea{border-top: 1px solid rgba(0, 0, 0, 0.2);}
+            .detailArea .detailFileArea a{display: flex; align-items: center; color: black;}
+            .detailArea .detailFileArea a::before{content: ''; width: 24px; height: 24px; background: url('images/fileIcon.png') no-repeat center / 24px 24px; margin-right: 10px;}
+            .detailArea .detailFileArea a span{color: black; margin-left: 5px;}
+            .detailArea .detailFileArea a span::before{content: '(';}
+            .detailArea .detailFileArea a span::after{content: ')';}
+            .detailArea .detailFileArea a:not(:last-child){margin-bottom: 10px;}
+        }
+    </style>
+    <!-- file 추가된 css fin-->
 </head>
 <body>
     <div class="wrap subArea">
@@ -129,6 +165,13 @@
                             <span>25</span>
                         </li>
                     </ul>
+
+                    <!-- file 추가된 html -->
+                    <div class="detailFileArea">
+                        <a href="#">닥터88사용설명서.pdf <span>6.0M</span></a>
+                        <a href="#">닥터88사용설명서.pdf <span>6.0M</span></a>
+                    </div>
+                    <!-- file 추가된 html fin-->
 
                     <div class="detailContentsArea">
                         <p>2개 대학병원에서 8주 간의 임상시험을 통해 연골세포 활성화를 통한 연골세포 증식으로<br/>
